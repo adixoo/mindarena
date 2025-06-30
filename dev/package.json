@@ -1,0 +1,31 @@
+{
+  "name": "dev",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "tailwind:dev": "bun run tailwindcss -i assets/css/globals.css -o assets/css/styles.css --watch",
+    "tailwind:prod": "bun run tailwindcss -i assets/css/globals.css -o ../dist/assets/css/styles.css",
+    "copy-html": "cpx \"path/**/*.{html}\" dist --watch",
+    "format": "prettier --write .",
+    "dev": "bun run tailwind:dev",
+    "build": "bun run format && bun run tailwind:prod && bun run bun.build.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "cpy": "^11.1.0",
+    "prettier": "^3.6.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "bun-plugin-html": "^2.2.8",
+    "cpx": "^1.5.0",
+    "cpx2": "^8.0.0",
+    "cpy-cli": "^5.0.0",
+    "rcpy": "^1.0.2",
+    "tailwindcss": "^4.1.11"
+  }
+}
