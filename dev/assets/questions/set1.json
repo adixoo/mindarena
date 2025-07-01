@@ -1,0 +1,67 @@
+[
+  {
+    "question": "What is the smallest unit of data in a computer?",
+    "options": ["Byte", "Bit", "Kilobyte", "Megabyte"],
+    "answer": 1
+  },
+  {
+    "question": "Which component is often referred to as the “brain” of the computer?",
+    "options": ["GPU", "CPU", "RAM", "Motherboard"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is non-volatile memory?",
+    "options": ["RAM", "ROM", "Cache", "Register"],
+    "answer": 1
+  },
+  {
+    "question": "What does CPU stand for?",
+    "options": [
+      "Central Process Unit",
+      "Central Processing Unit",
+      "Computer Processing Unit",
+      "Central Processor Unit"
+    ],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is an example of software?",
+    "options": ["Computer monitor", "Keyboard", "Operating system", "RAM"],
+    "answer": 2
+  },
+  {
+    "question": "Which type of port connects a peripheral device to the computer?",
+    "options": ["CD-ROM", "RAM", "ROM", "USB"],
+    "answer": 3
+  },
+  {
+    "question": "What does URL stand for?",
+    "options": [
+      "Uniform Resource Locator",
+      "Universal Resource Locator",
+      "Uniform Resource Link",
+      "Universal Resource Link"
+    ],
+    "answer": 0
+  },
+  {
+    "question": "Which component connects all other parts on a computer?",
+    "options": ["CPU", "GPU", "Power Supply", "Motherboard"],
+    "answer": 3
+  },
+  {
+    "question": "Which memory type is lost when the computer shuts down?",
+    "options": ["ROM", "HDD", "RAM", "SSD"],
+    "answer": 2
+  },
+  {
+    "question": "What does BIOS control during boot?",
+    "options": [
+      "Internet access",
+      "Video rendering",
+      "Basic startup and hardware initialization",
+      "File storage"
+    ],
+    "answer": 2
+  }
+]

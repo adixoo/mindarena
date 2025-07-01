@@ -1,34 +1,121 @@
 @import 'tailwindcss';
 
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --font-sans: 'Outfit', sans-serif;
+}
+
 @layer base {
   body {
-    @apply bg-indigo-100;
+    @apply bg-indigo-100 font-sans;
+    font-optical-sizing: auto;
+    font-style: normal;
   }
 }
 
 @layer components {
-  .question-label {
-    @apply text-white text-xl font-semibold flex items-end;
+  .pill-group {
+    @apply flex space-x-4;
   }
 
-  .question-progress {
-    @apply text-white text-xl font-semibold;
+  .pill {
+    @apply flex items-center px-4 py-2 bg-white text-gray-700 rounded-lg cursor-pointer transition-shadow shadow-sm hover:shadow;
   }
 
-  .question-total {
-    @apply text-gray-400 text-sm align-top ml-0.5;
+  .pill-selected {
+    @apply bg-white border-2 border-indigo-500 shadow-lg;
+  }
+
+  .pill-content {
+    @apply flex items-center space-x-2 text-sm font-medium;
+  }
+
+  .pill-icon {
+    @apply w-4 h-4 text-indigo-500;
+  }
+
+  /* When the radio is selected, style the parent label */
+  .pill input:checked + .pill-content {
+    @apply text-indigo-600;
   }
 }
 
+@layer components {
+  .btn-outline {
+    @apply px-6 py-2 border border-indigo-500 rounded-xl bg-white cursor-pointer font-medium text-indigo-500 hover:bg-indigo-50 transition-colors;
+  }
+
+  .btn-primary {
+    @apply px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition-colors;
+  }
+}
 .main-app {
   @apply mx-auto w-full max-w-5xl p-4;
 }
 .header {
-  @apply flex w-full justify-between;
+  @apply flex w-full justify-between items-center mb-10;
 }
 .quiz-set {
   @apply grid grid-cols-4 gap-4;
 }
 .quiz-tile {
   @apply h-40 rounded-3xl bg-white;
+}
+
+.quiz-list {
+  touch-action: none;
+  /* for broader browser support */
+  -ms-touch-action: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar in Firefox */
+  & {
+    scrollbar-width: none;
+  }
+
+  /* Hide scrollbar in IE, Edge (legacy) */
+  & {
+    -ms-overflow-style: none;
+  }
+}
+
+/* quiz */
+
+.main-quiz-app {
+  @apply h-screen sm:h-160 flex flex-col gap-10;
+}
+.quiz-header {
+  @apply flex w-full justify-between items-center;
+}
+
+@layer components {
+  /* question rank component */
+  .question-label {
+    @apply text-gray-600 text-xl font-medium flex items-end mb-4;
+  }
+
+  .question-total {
+    @apply text-gray-400 text-base align-top ml-0.5;
+  }
+}
+@layer components {
+  .option-radio-input {
+    @apply hidden;
+  }
+  .label-styles {
+    @apply inline-flex items-center justify-between w-full px-5 py-4 text-gray-600 bg-white border border-gray-200 rounded-2xl cursor-pointer peer-checked:border-indigo-500 peer-checked:text-indigo-500 hover:text-gray-600 hover:bg-gray-50 transition-colors;
+  }
+  .label-option {
+    @apply block transition-colors;
+  }
+  .option-check {
+    @apply w-5 h-5 opacity-0 transition-opacity;
+  }
+  :where(.peer):checked ~ .label-styles > .option-check {
+    @apply opacity-100;
+  }
 }
