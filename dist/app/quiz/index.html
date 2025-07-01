@@ -15,17 +15,13 @@
   <body>
     <main class="main-app main-quiz-app">
       <header class="quiz-header">
-        <div class="text-2xl font-bold text-indigo-500">10:00</div>
-        <button
-          class="px-8 py-3 rounded-2xl cursor-pointer font-medium bg-indigo-500 text-white hover:bg-indigo-600 transition-colors"
-        >
-          Submit
-        </button>
+        <div class="timer">10:00</div>
+        <button class="btn-primary">Submit</button>
       </header>
       <section class="h-full">
-        <div class="quiz-list overflow-x-scroll flex-row flex h-full"></div>
+        <div class="quiz-list"></div>
       </section>
-      <section class="sm:space-x-2 max-sm:grid max-sm:grid-cols-2 max-sm:gap-2">
+      <section class="btn-prev-nxt-wrap">
         <button class="btn-outline" onclick="previous()">Previous</button>
         <button class="btn-outline" onclick="next()">Next</button>
       </section>
@@ -34,21 +30,16 @@
     <!-- explicit area -->
     <div style="display: none">
       <div data-component="quiz">
-        <form
-          id="quiz-question"
-          class="h-full min-w-[100%] bg-white rounded-3xl p-8 flex flex-col justify-between"
-        >
+        <form id="quiz-question" class="quiz-box">
           <div>
             <div class="question-label">
               Question $questionNumber$
               <span class="question-total">/$questionCount$</span>
             </div>
 
-            <div class="text-2xl text-gray-800 sm:text-3xl font-medium">
-              $question$
-            </div>
+            <div class="quiz-question">$question$</div>
           </div>
-          <ul class="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
+          <ul class="quiz-options">
             <!-- optiona A -->
             <li>
               <input
