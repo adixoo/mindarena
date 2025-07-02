@@ -71,3 +71,7 @@ copySpecificFolder(
   path.join(sourceDir, 'assets/questions'),
   path.join(targetDir, 'assets/questions'),
 );
+copySpecificFolder(
+  path.join(sourceDir, 'assets/set'),
+  path.join(targetDir, 'assets/set'),
+);

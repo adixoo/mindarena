@@ -67,3 +67,7 @@ function getElementSize(el) {
     height: rect.height,
   };
 }
+
+function redirectTo(path) {
+  window.location.replace(path);
+}
