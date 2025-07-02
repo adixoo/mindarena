@@ -27,7 +27,24 @@ async function getQuestion(set) {
     throw error; // Re-throw so caller knows fetch failed
   }
 }
+async function getSetList() {
+  const SET_URL = `/assets/set/list.json`; // Construct URL based on "set" name
 
+  try {
+    const response = await fetch(SET_URL); // Send HTTP GET to fetch JSON
+    if (!response.ok) {
+      // If response status is not OK (e.g. 404 or 500), throw error with status info
+      throw new Error(
+        `Network error: ${response.status} ${response.statusText}`,
+      );
+    }
+    const data = await response.json(); // Parse the response body as JSON
+    return data; // Return the parsed JSON object or array
+  } catch (error) {
+    console.error('Failed to get or parse JSON:', error); // Log error for debugging
+    throw error; // Re-throw so caller knows fetch failed
+  }
+}
 function generateTemplate(component, data = {}) {
   const html = component.replace(/\$([a-zA-Z0-9_]+)\$/g, (_, key) =>
     key in data ? data[key] : `$${key}$`,

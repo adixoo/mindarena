@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
 @import 'tailwindcss';
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-  --font-sans: 'Outfit', sans-serif;
+  --font-sans: 'Comfortaa', sans-serif;
 }
 
 @layer base {
@@ -11,6 +13,7 @@
     @apply bg-indigo-100 font-sans;
     font-optical-sizing: auto;
     font-style: normal;
+    font-weight: 300;
   }
 }
 @layer utilities {
@@ -18,13 +21,10 @@
     @apply mx-auto w-full max-w-5xl p-4;
   }
   .header {
-    @apply flex w-full justify-between items-center mb-10;
+    @apply mb-10 flex w-full items-center justify-between;
   }
   .quiz-set {
-    @apply grid grid-cols-4 gap-4;
-  }
-  .quiz-tile {
-    @apply h-40 rounded-3xl bg-white;
+    @apply grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3;
   }
 }
 
@@ -34,11 +34,11 @@
   }
 
   .pill {
-    @apply flex items-center px-4 py-2 bg-white text-gray-700 rounded-lg cursor-pointer transition-shadow shadow-sm hover:shadow;
+    @apply flex cursor-pointer items-center rounded-lg bg-white px-4 py-2 text-gray-700 shadow-sm transition-shadow hover:shadow;
   }
 
   .pill-selected {
-    @apply bg-white border-2 border-indigo-500 shadow-lg;
+    @apply border-2 border-indigo-500 bg-white shadow-lg;
   }
 
   .pill-content {
@@ -46,7 +46,7 @@
   }
 
   .pill-icon {
-    @apply w-4 h-4 text-indigo-500;
+    @apply h-4 w-4 text-indigo-500;
   }
 
   /* When the radio is selected, style the parent label */
@@ -57,24 +57,23 @@
 /* button */
 @layer components {
   .btn-outline {
-    @apply px-6 py-2 border border-indigo-500 rounded-xl bg-white cursor-pointer font-medium text-indigo-500 hover:bg-indigo-50 transition-colors;
+    @apply cursor-pointer rounded-xl border border-indigo-500 bg-white px-6 py-2 font-semibold text-indigo-500 transition-[scale,background] hover:bg-indigo-50 active:scale-90;
   }
-
   .btn-primary {
-    @apply px-8 py-3 rounded-2xl cursor-pointer font-medium bg-indigo-500 text-white hover:bg-indigo-600 transition-colors;
+    @apply cursor-pointer rounded-2xl bg-indigo-500 px-8 py-3 font-semibold text-white transition-[scale,background] hover:bg-indigo-600 active:scale-90;
   }
   .btn-prev-nxt-wrap {
-    @apply sm:space-x-2 max-sm:grid max-sm:grid-cols-2 max-sm:gap-2;
+    @apply max-sm:grid max-sm:grid-cols-2 max-sm:gap-2 sm:space-x-2;
   }
 }
 
 /* quiz */
 @layer utilities {
   .main-quiz-app {
-    @apply h-dvh sm:h-160 flex flex-col gap-10;
+    @apply flex h-dvh flex-col gap-10 sm:h-160;
   }
   .quiz-header {
-    @apply flex w-full justify-between items-center;
+    @apply flex w-full items-center justify-between;
   }
 }
 
@@ -83,13 +82,13 @@
     @apply hidden;
   }
   .label-styles {
-    @apply inline-flex items-center justify-between w-full px-5 py-4 text-gray-600 bg-white border border-gray-200 rounded-2xl cursor-pointer peer-checked:border-indigo-500 peer-checked:text-indigo-500 hover:text-gray-600 hover:bg-gray-50 transition-colors;
+    @apply inline-flex w-full cursor-pointer items-center justify-between rounded-2xl border border-gray-200 bg-white px-5 py-4 text-gray-600 transition-colors peer-checked:border-indigo-500 peer-checked:text-indigo-500 hover:bg-gray-50 hover:text-gray-600;
   }
   .label-option {
     @apply block transition-colors;
   }
   .option-check {
-    @apply w-5 h-5 opacity-0 transition-opacity;
+    @apply h-5 w-5 opacity-0 transition-opacity;
   }
   :where(.peer):checked ~ .label-styles > .option-check {
     @apply opacity-100;
@@ -106,7 +105,7 @@
 /* quiz */
 @layer components {
   .quiz-list {
-    @apply overflow-x-scroll flex-row flex h-full;
+    @apply flex h-full flex-row overflow-x-scroll;
     touch-action: none;
     -ms-touch-action: none;
 
@@ -125,18 +124,42 @@
     }
   }
   .question-label {
-    @apply text-gray-600 text-xl font-medium flex items-end mb-4;
+    @apply mb-4 flex items-end text-xl font-medium text-gray-600;
   }
   .question-total {
-    @apply text-gray-400 text-base align-top ml-0.5;
+    @apply ml-0.5 align-top text-base text-gray-400;
   }
   .quiz-box {
-    @apply h-full min-w-[100%] bg-white rounded-3xl p-8 flex flex-col justify-between;
+    @apply flex h-full min-w-[100%] flex-col justify-between rounded-3xl bg-white p-8;
   }
   .quiz-question {
-    @apply text-2xl text-gray-800 sm:text-3xl font-medium;
+    @apply text-2xl font-medium text-gray-800 sm:text-3xl;
   }
   .quiz-options {
-    @apply grid grid-cols-1 md:grid-cols-2 gap-3 mt-4;
+    @apply mt-4 grid grid-cols-1 gap-3 md:grid-cols-2;
+  }
+}
+
+/* quiz home page */
+
+@layer components {
+  .logo {
+    @apply text-2xl font-bold text-indigo-500 uppercase;
+  }
+}
+
+@layer components {
+  .quiz-tile {
+    @apply rounded-3xl bg-white p-6;
+
+    .btn-primary {
+      @apply flex w-full items-center justify-center gap-2;
+    }
+  }
+  .set-title {
+    @apply text-xl font-medium text-ellipsis;
+  }
+  .set-description {
+    @apply my-6 mt-2 text-gray-600;
   }
 }
