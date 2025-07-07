@@ -3,14 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz</title>
+    <title>Quiz | MindArena</title>
+    <script>
+      (function () {
+        const ls = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia(
+          '(prefers-color-scheme: dark)',
+        ).matches;
+        const theme = ls === 'dark' || (!ls && prefersDark) ? 'dark' : 'light';
+        document.documentElement.classList.add(theme);
+        document.documentElement.classList.remove(
+          theme === 'dark' ? 'light' : 'dark',
+        );
+      })();
+    </script>
     <link rel="stylesheet" href="../../assets/css/styles.css" />
   </head>
   <body>
     <main class="main-app main-quiz-app">
       <header class="quiz-header">
         <div class="timer">10:00</div>
-        <button class="btn-primary">Submit</button>
+        <button class="btn-primary" onclick="submitQuiz()">Submit</button>
       </header>
       <section class="h-full">
         <div class="quiz-list"></div>
@@ -24,7 +37,11 @@
     <!-- explicit area -->
     <div style="display: none">
       <div data-component="quiz">
-        <form id="quiz-question" class="quiz-box">
+        <form
+          id="quiz-question"
+          class="quiz-box"
+          data-sequence="$questionNumber$"
+        >
           <div>
             <div class="question-label">
               Question $questionNumber$
@@ -41,6 +58,7 @@
                 id="$questionNumber$-opta"
                 type="radio"
                 class="option-radio-input peer"
+                data-option="a"
               />
               <label for="$questionNumber$-opta" class="label-styles">
                 <div class="label-option">$opta$</div>
@@ -67,6 +85,7 @@
                 id="$questionNumber$-optb"
                 type="radio"
                 class="option-radio-input peer"
+                data-option="b"
               />
               <label for="$questionNumber$-optb" class="label-styles">
                 <div class="label-option">$optb$</div>
@@ -93,6 +112,7 @@
                 id="$questionNumber$-optc"
                 type="radio"
                 class="option-radio-input peer"
+                data-option="c"
               />
               <label for="$questionNumber$-optc" class="label-styles">
                 <div class="label-option">$optc$</div>
@@ -119,6 +139,7 @@
                 id="$questionNumber$-optd"
                 type="radio"
                 class="option-radio-input peer"
+                data-option="d"
               />
               <label for="$questionNumber$-optd" class="label-styles">
                 <div class="label-option">$optd$</div>

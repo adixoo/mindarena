@@ -1,20 +1,20 @@
 [
   {
-    "name": "Set 1",
-    "description": "This is the first set of assets.",
+    "name": "Fundamentals of Computer Architecture",
+    "description": "Questions covering core computer architecture concepts.",
     "set": "set1",
     "question": 10
   },
   {
-    "name": "Set 2",
-    "description": "This is the first set of assets.",
-    "set": "set1",
+    "name": "Networking & Protocol Essentials",
+    "description": "Quiz on networking models, protocols, and topologies.",
+    "set": "set2",
     "question": 10
   },
   {
-    "name": "Set 3",
-    "description": "This is the first set of assets.",
-    "set": "set1",
+    "name": "Hardware Components & Memory",
+    "description": "Focused on hardware parts, memory types, and CPU functions.",
+    "set": "set3",
     "question": 10
   }
 ]

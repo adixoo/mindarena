@@ -1,0 +1,2 @@
+- add logo
+- fix colors for light and dark mode

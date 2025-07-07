@@ -10,23 +10,27 @@ const extractComponent = (selector) => {
 // Asynchronous function to fetch question data from a given JSON “set”
 // Returns parsed JSON or throws an error on failure
 async function getQuestion(set) {
-  const QUESTIONS_URL = `/assets/questions/${set}.json`; // Construct URL based on "set" name
+  const QUESTIONS_URL = `/assets/questions/${set}.json`;
 
   try {
-    const response = await fetch(QUESTIONS_URL); // Send HTTP GET to fetch JSON
+    const response = await fetch(QUESTIONS_URL);
+
     if (!response.ok) {
-      // If response status is not OK (e.g. 404 or 500), throw error with status info
+      if (response.status === 404) {
+        return null;
+      }
       throw new Error(
         `Network error: ${response.status} ${response.statusText}`,
       );
     }
-    const data = await response.json(); // Parse the response body as JSON
-    return data; // Return the parsed JSON object or array
+
+    const data = await response.json();
+    return data;
   } catch (error) {
-    console.error('Failed to get or parse JSON:', error); // Log error for debugging
-    throw error; // Re-throw so caller knows fetch failed
+    throw error;
   }
 }
+
 async function getSetList() {
   const SET_URL = `/assets/set/list.json`; // Construct URL based on "set" name
 
@@ -52,6 +56,13 @@ function generateTemplate(component, data = {}) {
   return html;
 }
 
+function changeTheme() {
+  const html = document.documentElement;
+  const newTheme = html.classList.contains('dark') ? 'light' : 'dark';
+  html.className = newTheme;
+  localStorage.setItem('theme', newTheme);
+}
+
 /**
  * Returns the width and height of a DOM element.
  * @param {Element} el - The target DOM element.
@@ -69,5 +80,20 @@ function getElementSize(el) {
 }
 
 function redirectTo(path) {
-  window.location.replace(path);
+  window.location.href = path;
+}
+
+function isUserLoggedIn() {
+  const user = localStorage.getItem('username');
+  return user ? user : null;
+}
+
+/**
+ * Get the value of a query parameter from the current page's URL.
+ * @param {string} name - The name of the parameter to retrieve.
+ * @returns {string|null} The decoded value, or null if it's not present.
+ */
+function getQueryParam(name) {
+  const params = new URLSearchParams(window.location.search);
+  return params.get(name); // returns first value or null if not found :contentReference[oaicite:1]{index=1}
 }

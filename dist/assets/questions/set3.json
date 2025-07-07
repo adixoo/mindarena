@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is computer architecture?",
+    "options": [
+      "Set of functions and methods for system design",
+      "Organization and structure visible to programmers",
+      "Principles and methods specifying system functioning and implementation",
+      "All hardware components"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which type of architecture separates instruction and data memories?",
+    "options": ["Von Neumann", "Harvard", "RISC", "CISC"],
+    "answer": "b"
+  },
+  {
+    "question": "Which architecture uses simple instructions executed in one clock cycle?",
+    "options": ["CISC", "RISC", "MISD", "SIMD"],
+    "answer": "b"
+  },
+  {
+    "question": "What does ISA stand for?",
+    "options": [
+      "Instruction Set Architecture",
+      "Integrated System Architecture",
+      "Instance Sequence Array",
+      "Intelligent System Algorithm"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which register holds the address of the next instruction?",
+    "options": [
+      "Accumulator",
+      "Instruction Register",
+      "Program Counter",
+      "Memory Address Register"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which memory is fastest and closest to the CPU?",
+    "options": ["DRAM", "L2 Cache", "Main memory", "Registers"],
+    "answer": "d"
+  },
+  {
+    "question": "In Von Neumann architecture, what creates the bottleneck?",
+    "options": [
+      "Shared bus for instructions and data",
+      "Separate memory for code",
+      "Multiple ALUs",
+      "No cache"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What is pipelining in CPU design?",
+    "options": [
+      "Executing instructions in parallel cores",
+      "Overlapping instruction fetch, decode, execute stages",
+      "Storing instructions in cache",
+      "Fetching multiple instructions at once"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which component performs arithmetic and logic operations?",
+    "options": ["Control Unit", "ALU", "Cache", "Bus"],
+    "answer": "b"
+  },
+  {
+    "question": "What is the main function of a control unit in CPU?",
+    "options": [
+      "Execute arithmetic operations",
+      "Store data temporarily",
+      "Fetch, decode, and control instruction execution",
+      "Manage network traffic"
+    ],
+    "answer": "c"
+  }
+]

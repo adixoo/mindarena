@@ -4,13 +4,189 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme inline {
-  --font-sans: 'Comfortaa', sans-serif;
+:root {
+  --background: oklch(0.973 0.0133 286.1503);
+  --foreground: oklch(0.3015 0.0572 282.4176);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.3015 0.0572 282.4176);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.3015 0.0572 282.4176);
+  --primary: oklch(0.5417 0.179 288.0332);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.9174 0.0435 292.6901);
+  --secondary-foreground: oklch(0.4143 0.1039 288.1742);
+  --muted: oklch(0.958 0.0133 286.1454);
+  --muted-foreground: oklch(0.5426 0.0465 284.7435);
+  --accent: oklch(0.9221 0.0373 262.141);
+  --accent-foreground: oklch(0.3015 0.0572 282.4176);
+  --destructive: oklch(0.6861 0.2061 14.9941);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.9115 0.0216 285.9625);
+  --input: oklch(0.9115 0.0216 285.9625);
+  --ring: oklch(0.5417 0.179 288.0332);
+  --sidebar: oklch(0.958 0.0133 286.1454);
+  --sidebar-foreground: oklch(0.3015 0.0572 282.4176);
+  --sidebar-primary: oklch(0.5417 0.179 288.0332);
+  --sidebar-primary-foreground: oklch(1 0 0);
+  --sidebar-accent: oklch(0.9221 0.0373 262.141);
+  --sidebar-accent-foreground: oklch(0.3015 0.0572 282.4176);
+  --sidebar-border: oklch(0.9115 0.0216 285.9625);
+  --sidebar-ring: oklch(0.5417 0.179 288.0332);
+  --radius: 0.9rem;
+  --shadow-2xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+  --shadow-xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+  --shadow-sm:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+  --shadow:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+  --shadow-md:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 2px 4px -1px hsl(240 30% 25% / 0.12);
+  --shadow-lg:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 4px 6px -1px hsl(240 30% 25% / 0.12);
+  --shadow-xl:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 8px 10px -1px hsl(240 30% 25% / 0.12);
+  --shadow-2xl: 0px 4px 10px 0px hsl(240 30% 25% / 0.3);
+  --tracking-normal: 0em;
+  --spacing: 0.25rem;
 }
 
+.dark {
+  --background: oklch(0.1743 0.0227 283.7998);
+  --foreground: oklch(0.9185 0.0257 285.8834);
+  --card: oklch(0.2284 0.0384 282.9324);
+  --card-foreground: oklch(0.9185 0.0257 285.8834);
+  --popover: oklch(0.2284 0.0384 282.9324);
+  --popover-foreground: oklch(0.9185 0.0257 285.8834);
+  --primary: oklch(0.7162 0.1597 290.3962);
+  --primary-foreground: oklch(0.1743 0.0227 283.7998);
+  --secondary: oklch(0.3139 0.0736 283.4591);
+  --secondary-foreground: oklch(0.8367 0.0849 285.9111);
+  --muted: oklch(0.271 0.0621 281.4377);
+  --muted-foreground: oklch(0.7166 0.0462 285.1741);
+  --accent: oklch(0.3354 0.0828 280.9705);
+  --accent-foreground: oklch(0.9185 0.0257 285.8834);
+  --destructive: oklch(0.6861 0.2061 14.9941);
+  --destructive-foreground: oklch(1 0 0);
+  --border: oklch(0.3261 0.0597 282.5832);
+  --input: oklch(0.3261 0.0597 282.5832);
+  --ring: oklch(0.7162 0.1597 290.3962);
+  --sidebar: oklch(0.2284 0.0384 282.9324);
+  --sidebar-foreground: oklch(0.9185 0.0257 285.8834);
+  --sidebar-primary: oklch(0.7162 0.1597 290.3962);
+  --sidebar-primary-foreground: oklch(0.1743 0.0227 283.7998);
+  --sidebar-accent: oklch(0.3354 0.0828 280.9705);
+  --sidebar-accent-foreground: oklch(0.9185 0.0257 285.8834);
+  --sidebar-border: oklch(0.3261 0.0597 282.5832);
+  --sidebar-ring: oklch(0.7162 0.1597 290.3962);
+  --radius: 0.9rem;
+  --shadow-2xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+  --shadow-xs: 0px 4px 10px 0px hsl(240 30% 25% / 0.06);
+  --shadow-sm:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+  --shadow:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 1px 2px -1px hsl(240 30% 25% / 0.12);
+  --shadow-md:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 2px 4px -1px hsl(240 30% 25% / 0.12);
+  --shadow-lg:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 4px 6px -1px hsl(240 30% 25% / 0.12);
+  --shadow-xl:
+    0px 4px 10px 0px hsl(240 30% 25% / 0.12),
+    0px 8px 10px -1px hsl(240 30% 25% / 0.12);
+  --shadow-2xl: 0px 4px 10px 0px hsl(240 30% 25% / 0.3);
+}
+
+@theme inline {
+  --font-sans: 'Comfortaa', sans-serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --shadow-2xs: var(--shadow-2xs);
+  --shadow-xs: var(--shadow-xs);
+  --shadow-sm: var(--shadow-sm);
+  --shadow: var(--shadow);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-xl: var(--shadow-xl);
+  --shadow-2xl: var(--shadow-2xl);
+}
+
+/* @theme inline {
+  --font-sans: 'Comfortaa', sans-serif;
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-primary-dark: var(--primary-dark);
+  --color-primary-light: var(--primary-light);
+  --color-base-100: var(--base-100);
+  --color-base-200: var(--base-200);
+  --color-base-300: var(--base-300);
+  --color-base-400: var(--base-400);
+  --color-base-500: var(--base-500);
+}
+
+:root {
+  --background: var(--color-indigo-100);
+  --primary: var(--color-indigo-500);
+  --primary-dark: var(--color-indigo-600);
+  --primary-light: var(--color-indigo-400);
+  --base-100: var(--color-gray-800);
+  --base-200: var(--color-gray-800);
+  --base-300: var(--color-gray-800);
+  --base-400: var(--color-gray-800);
+  --base-500: var(--color-gray-800);
+}
+.dark {
+  --background: var(--color-gray-900);
+  --primary: var(--color-indigo-300);
+  --primary-dark: var(--color-indigo-200);
+  --primary-light: var(--color-indigo-400);
+  --base-100: var(--color-gray-800);
+  --base-200: var(--color-gray-800);
+  --base-300: var(--color-gray-800);
+  --base-400: var(--color-gray-800);
+  --base-500: var(--color-gray-800);
+} */
 @layer base {
   body {
-    @apply bg-indigo-100 font-sans;
+    @apply bg-background text-foreground font-sans antialiased;
     font-optical-sizing: auto;
     font-style: normal;
     font-weight: 300;
@@ -57,13 +233,20 @@
 /* button */
 @layer components {
   .btn-outline {
-    @apply cursor-pointer rounded-xl border border-indigo-500 bg-white px-6 py-2 font-semibold text-indigo-500 transition-[scale,background] hover:bg-indigo-50 active:scale-90;
+    @apply bg-secondary/50 hover:bg-secondary text-secondary-foreground border-primary cursor-pointer rounded-2xl border px-8 py-3 font-semibold shadow transition-[scale,background] active:scale-90;
   }
   .btn-primary {
-    @apply cursor-pointer rounded-2xl bg-indigo-500 px-8 py-3 font-semibold text-white transition-[scale,background] hover:bg-indigo-600 active:scale-90;
+    @apply bg-primary hover:bg-primary/80 cursor-pointer rounded-2xl px-8 py-3 font-semibold text-white shadow transition-[scale,background] active:scale-90;
   }
   .btn-prev-nxt-wrap {
     @apply max-sm:grid max-sm:grid-cols-2 max-sm:gap-2 sm:space-x-2;
+  }
+  .theme-btn {
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/80 relative flex size-10 cursor-pointer items-center justify-center rounded-full transition-colors;
+
+    svg {
+      @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+    }
   }
 }
 
@@ -77,32 +260,46 @@
   }
 }
 
-@layer components {
-  .option-radio-input {
-    @apply hidden;
-  }
-  .label-styles {
-    @apply inline-flex w-full cursor-pointer items-center justify-between rounded-2xl border border-gray-200 bg-white px-5 py-4 text-gray-600 transition-colors peer-checked:border-indigo-500 peer-checked:text-indigo-500 hover:bg-gray-50 hover:text-gray-600;
-  }
-  .label-option {
-    @apply block transition-colors;
-  }
-  .option-check {
-    @apply h-5 w-5 opacity-0 transition-opacity;
-  }
-  :where(.peer):checked ~ .label-styles > .option-check {
-    @apply opacity-100;
-  }
-}
-
 /* timer */
 @layer components {
   .timer {
-    @apply text-2xl font-bold text-indigo-500;
+    @apply text-primary text-2xl font-bold tracking-wider;
   }
 }
 
-/* quiz */
+/* 
+
+██   ██  ██████  ███    ███ ███████ 
+██   ██ ██    ██ ████  ████ ██      
+███████ ██    ██ ██ ████ ██ █████   
+██   ██ ██    ██ ██  ██  ██ ██      
+██   ██  ██████  ██      ██ ███████                              
+
+*/
+
+@layer utilities {
+  .logo {
+    img {
+      @apply h-10 w-auto;
+    }
+    .dk {
+      @apply hidden dark:inline;
+    }
+    .lg {
+      @apply dark:hidden;
+    }
+  }
+  .logo-sign {
+    img {
+      @apply mx-auto h-14;
+    }
+  }
+}
+@layer utilities {
+  .greet {
+    @apply text-muted-foreground mb-10;
+  }
+}
 @layer components {
   .quiz-list {
     @apply flex h-full flex-row overflow-x-scroll;
@@ -124,42 +321,185 @@
     }
   }
   .question-label {
-    @apply mb-4 flex items-end text-xl font-medium text-gray-600;
+    @apply text-card-foreground mb-4 flex items-end text-lg font-medium;
   }
   .question-total {
-    @apply ml-0.5 align-top text-base text-gray-400;
+    @apply text-muted-foreground ml-0.5 align-top text-base;
   }
   .quiz-box {
-    @apply flex h-full min-w-[100%] flex-col justify-between rounded-3xl bg-white p-8;
+    @apply bg-card flex h-full min-w-[100%] flex-col justify-between rounded-3xl p-8;
   }
   .quiz-question {
-    @apply text-2xl font-medium text-gray-800 sm:text-3xl;
+    @apply text-card-foreground text-2xl font-medium sm:text-3xl;
   }
   .quiz-options {
     @apply mt-4 grid grid-cols-1 gap-3 md:grid-cols-2;
   }
 }
 
+@layer components {
+  .option-radio-input {
+    @apply hidden;
+  }
+  .label-styles {
+    @apply border-border bg-card hover:bg-muted peer-checked:border-primary peer-checked:text-primary inline-flex w-full cursor-pointer items-center justify-between rounded-2xl border px-5 py-4 transition-colors;
+  }
+  .label-option {
+    @apply text-card-foreground block transition-colors;
+  }
+  .option-check {
+    @apply min-h-5 min-w-5 opacity-0 transition-opacity;
+  }
+  :where(.peer):checked ~ .label-styles > .option-check {
+    @apply opacity-100;
+  }
+}
 /* quiz home page */
 
 @layer components {
-  .logo {
-    @apply text-2xl font-bold text-indigo-500 uppercase;
-  }
-}
-
-@layer components {
   .quiz-tile {
-    @apply rounded-3xl bg-white p-6;
+    @apply bg-card rounded-xl p-6 shadow;
 
     .btn-primary {
       @apply flex w-full items-center justify-center gap-2;
     }
   }
   .set-title {
-    @apply text-xl font-medium text-ellipsis;
+    @apply text-card-foreground line-clamp-2 text-xl font-medium;
   }
   .set-description {
-    @apply my-6 mt-2 text-gray-600;
+    @apply text-muted-foreground my-6 mt-2 line-clamp-2;
   }
 }
+
+@layer utilities {
+  html {
+    &.light {
+      .theme-btn {
+        svg {
+          @apply transition-[rotate,opacity];
+        }
+        #moon {
+          @apply rotate-0 opacity-100;
+        }
+        #sun {
+          @apply rotate-90 opacity-0;
+        }
+      }
+    }
+
+    &.dark {
+      .theme-btn {
+        svg {
+          @apply transition-[rotate,opacity];
+        }
+        #moon {
+          @apply rotate-90 opacity-0;
+        }
+        #sun {
+          @apply rotate-0 opacity-100;
+        }
+      }
+    }
+  }
+}
+
+/* sign in page */
+
+@layer components {
+  .page-wrapper {
+    @apply flex min-h-dvh items-center justify-center bg-gray-100 dark:bg-gray-900;
+  }
+  .form-container {
+    @apply w-full max-w-sm text-center;
+  }
+  .welcome-text {
+    @apply mb-2 text-gray-700 dark:text-gray-300;
+  }
+  .title {
+    @apply mb-1 text-4xl font-bold text-gray-800 dark:text-gray-100;
+  }
+  .subtitle {
+    @apply mt-6 mb-20 text-xl text-gray-600 dark:text-gray-300;
+  }
+  .signin-form {
+    @apply flex flex-col gap-4;
+  }
+  .input-field {
+    @apply text-primary border-border focus:border-primary mb-10 border-b-2 bg-transparent px-4 py-2 text-center text-lg font-bold transition-colors outline-none;
+  }
+}
+
+/* 
+
+ ██████  ██    ██ ██ ███████ 
+██    ██ ██    ██ ██    ███  
+██    ██ ██    ██ ██   ███   
+██ ▄▄ ██ ██    ██ ██  ███    
+ ██████   ██████  ██ ███████ 
+    ▀▀                       
+*/
+/* 
+
+██████  ███████ ███████ ██    ██ ██      ████████ 
+██   ██ ██       ██      ██    ██ ██          ██    
+██████  █████   ███████ ██    ██ ██          ██    
+██   ██ ██           ██  ██    ██ ██          ██    
+██   ██ ███████ ███████  ██████  ███████    ██    
+                                                  
+ */
+
+@layer utilities {
+  .quiz-result {
+    .wrapper {
+      @apply mx-auto max-w-4xl px-4 pt-20;
+    }
+    .correct-answer {
+      @apply text-5xl font-bold text-white;
+    }
+    .result-question-component {
+      .result-question {
+        @apply mb-6 text-xl font-bold;
+      }
+      .result-options {
+        @apply grid grid-cols-1 gap-4 sm:grid-cols-2;
+        li {
+          @apply rounded-2xl p-4;
+        }
+        .true {
+          @apply bg-secondary text-secondary-foreground;
+        }
+        .false {
+          @apply bg-destructive/10 text-destructive;
+        }
+        .default {
+          @apply bg-card text-card-foreground;
+        }
+      }
+    }
+    .question-result-list {
+      @apply space-y-14 py-24;
+    }
+    .btn-wrapper {
+      @apply mt-16 flex justify-center gap-4;
+    }
+    .total-question {
+      @apply bottom-4 -mb-4 text-sm text-white/80;
+    }
+    .rounded-circle {
+      @apply bg-primary mx-auto flex h-32 w-32 flex-col items-center justify-center rounded-full shadow-lg;
+    }
+    .greet {
+      @apply text-primary mb-10 text-center text-2xl font-bold;
+    }
+  }
+}
+
+/*  
+███████ ██  ██████   ███    ██ 
+██      ██  ██        ████   ██ 
+███████ ██  ██   ███ ██ ██  ██ 
+     ██ ██  ██    ██  ██  ██ ██ 
+███████ ██  ██████   ██   ████ 
+                              
+ */

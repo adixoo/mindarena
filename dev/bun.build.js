@@ -75,3 +75,8 @@ copySpecificFolder(
   path.join(sourceDir, 'assets/set'),
   path.join(targetDir, 'assets/set'),
 );
+
+copySpecificFolder(
+  path.join(sourceDir, 'assets/image'),
+  path.join(targetDir, 'assets/image'),
+);

@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What does LAN stand for?",
+    "options": [
+      "Local Area Network",
+      "Large Area Network",
+      "Long Area Network",
+      "Limited Area Network"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which layer of the OSI model is responsible for routing?",
+    "options": ["Data Link", "Network", "Transport", "Session"],
+    "answer": "b"
+  },
+  {
+    "question": "Which topology uses a single central hub to connect all devices?",
+    "options": ["Bus", "Ring", "Mesh", "Star"],
+    "answer": "d"
+  },
+  {
+    "question": "Which device operates at the network layer and forwards packets between networks?",
+    "options": ["Switch", "Router", "Hub", "Bridge"],
+    "answer": "b"
+  },
+  {
+    "question": "What is a pair of computers directly connected without a central device called?",
+    "options": ["Client/server", "Peer-to-peer", "Hub-and-spoke", "Star"],
+    "answer": "b"
+  },
+  {
+    "question": "Which protocol translates domain names into IP addresses?",
+    "options": ["FTP", "DNS", "HTTP", "SMTP"],
+    "answer": "b"
+  },
+  {
+    "question": "Which layer of TCP/IP does the IP protocol belong to?",
+    "options": ["Application", "Transport", "Internet", "Link"],
+    "answer": "c"
+  },
+  {
+    "question": "What is the term for dividing a network into logical segments?",
+    "options": ["Subnetting", "Switching", "Routing", "Bridging"],
+    "answer": "a"
+  },
+  {
+    "question": "Which technology uses radio waves for short‑range personal networks?",
+    "options": ["Ethernet", "Wi‑Fi", "Bluetooth", "Fiber optics"],
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is a valid private IP address?",
+    "options": ["8.8.8.8", "192.168.1.1", "172.32.5.4", "256.0.0.1"],
+    "answer": "b"
+  }
+]

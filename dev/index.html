@@ -3,10 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MindArena</title>
+    <title>MindArena | A Quiz App for O level</title>
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <script>
+      (function () {
+        const ls = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia(
+          '(prefers-color-scheme: dark)',
+        ).matches;
+        const theme = ls === 'dark' || (!ls && prefersDark) ? 'dark' : 'light';
+        document.documentElement.classList.add(theme);
+        document.documentElement.classList.remove(
+          theme === 'dark' ? 'light' : 'dark',
+        );
+      })();
+    </script>
   </head>
   <body>
-    <h1>ahh working right</h1>
+    <a href="/app" class="">
+      <button class="btn-primary">Go to app</button>
+    </a>
   </body>
 </html>

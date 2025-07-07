@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign in | MindArena</title>
+    <script>
+      // Immediately apply theme from localStorage (or system preference)
+      (function () {
+        const ls = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia(
+          '(prefers-color-scheme: dark)',
+        ).matches;
+        const theme = ls === 'dark' || (!ls && prefersDark) ? 'dark' : 'light';
+        document.documentElement.classList.add(theme);
+        document.documentElement.classList.remove(
+          theme === 'dark' ? 'light' : 'dark',
+        );
+      })();
+    </script>
+    <link rel="stylesheet" href="../../assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <main class="form-container">
+        <div class="welcome-text">Welcome to</div>
+        <div class="logo logo-sign">
+          <img
+            src="/assets/image/logo-dark.svg"
+            alt="Mindarena logo"
+            class="dk"
+          />
+          <img
+            src="/assets/image/logo-light.svg"
+            alt="Mindarena logo"
+            class="lg"
+          />
+        </div>
+        <h2 class="subtitle">Sign in to continue</h2>
+        <form id="signInForm" class="signin-form">
+          <input
+            id="username"
+            name="username"
+            type="text"
+            placeholder="Enter Name"
+            required
+            class="input-field"
+          />
+          <button type="submit" class="btn-primary">Continue</button>
+        </form>
+      </main>
+    </div>
+    <script src="../../assets/js/helpers.js"></script>
+    <script src="../../assets/js/sign.js"></script>
+  </body>
+</html>
