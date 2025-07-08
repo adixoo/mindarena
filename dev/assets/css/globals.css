@@ -321,16 +321,16 @@
     }
   }
   .question-label {
-    @apply text-card-foreground mb-4 flex items-end text-lg font-medium;
+    @apply text-card-foreground mb-4 flex items-end text-base font-medium sm:text-lg;
   }
   .question-total {
-    @apply text-muted-foreground ml-0.5 align-top text-base;
+    @apply text-muted-foreground ml-0.5 align-top text-sm sm:text-base;
   }
   .quiz-box {
     @apply bg-card flex h-full min-w-[100%] flex-col justify-between rounded-3xl p-8;
   }
   .quiz-question {
-    @apply text-card-foreground text-2xl font-medium sm:text-3xl;
+    @apply text-card-foreground text-xl font-medium sm:text-2xl;
   }
   .quiz-options {
     @apply mt-4 grid grid-cols-1 gap-3 md:grid-cols-2;
@@ -345,7 +345,7 @@
     @apply border-border bg-card hover:bg-muted peer-checked:border-primary peer-checked:text-primary inline-flex w-full cursor-pointer items-center justify-between rounded-2xl border px-5 py-4 transition-colors;
   }
   .label-option {
-    @apply text-card-foreground block transition-colors;
+    @apply text-card-foreground block text-sm transition-colors sm:text-base;
   }
   .option-check {
     @apply min-h-5 min-w-5 opacity-0 transition-opacity;
@@ -411,7 +411,7 @@
     @apply flex min-h-dvh items-center justify-center bg-gray-100 dark:bg-gray-900;
   }
   .form-container {
-    @apply w-full max-w-sm text-center;
+    @apply w-full max-w-sm p-4 text-center;
   }
   .welcome-text {
     @apply mb-2 text-gray-700 dark:text-gray-300;
