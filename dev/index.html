@@ -1,10 +1,9 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MindArena | A Quiz App for O level</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
     <script>
       (function () {
         const ls = localStorage.getItem('theme');
@@ -18,10 +17,445 @@
         );
       })();
     </script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
-  <body>
-    <a href="/app" class="">
-      <button class="btn-primary">Go to app</button>
-    </a>
+  <body class="landing-page">
+    <!-- Navbar -->
+    <header class="navbar bg-background fixed top-0 left-0 z-50 w-full">
+      <nav class="mx-auto max-w-7xl px-4">
+        <div class="flex h-20 items-center justify-between">
+          <!-- Logo/Brand -->
+          <div class="logo">
+            <img
+              src="/assets/image/logo-dark.svg"
+              alt="Mindarena logo"
+              class="dk"
+            />
+            <img
+              src="/assets/image/logo-light.svg"
+              alt="Mindarena logo"
+              class="lg"
+            />
+          </div>
+
+          <!-- Right side items -->
+          <div class="flex items-center space-x-4">
+            <button class="theme-btn" onclick="changeTheme()">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="none"
+                id="moon"
+              >
+                <defs />
+                <path
+                  fill="currentColor"
+                  d="M10.516,2.043 C10.696,2.277 10.722,2.593 10.583,2.853 C9.999,3.947 9.668,5.196 9.668,6.525 C9.668,10.837 13.163,14.332 17.475,14.332 C18.804,14.332 20.053,14.001 21.147,13.417 C21.406,13.278 21.723,13.304 21.957,13.484 C22.191,13.663 22.297,13.963 22.23,14.25 C21.156,18.835 17.041,22.25 12.127,22.25 C6.396,22.25 1.75,17.604 1.75,11.873 C1.75,6.959 5.165,2.844 9.75,1.77 C10.037,1.703 10.337,1.809 10.516,2.043 Z M8.596,3.726 C5.45,5.091 3.25,8.226 3.25,11.873 C3.25,16.776 7.224,20.75 12.127,20.75 C15.774,20.75 18.909,18.55 20.274,15.404 C19.39,15.682 18.45,15.832 17.475,15.832 C12.335,15.832 8.168,11.665 8.168,6.525 C8.168,5.55 8.318,4.61 8.596,3.726 Z"
+                />
+              </svg>
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="none"
+                id="sun"
+              >
+                <defs />
+                <path
+                  fill="currentColor"
+                  d="M12,6.25 C15.176,6.25 17.75,8.824 17.75,12 C17.75,15.176 15.176,17.75 12,17.75 C8.824,17.75 6.25,15.176 6.25,12 C6.25,8.824 8.824,6.25 12,6.25 Z M7.75,12 C7.75,14.347 9.653,16.25 12,16.25 C14.347,16.25 16.25,14.347 16.25,12 C16.25,9.653 14.347,7.75 12,7.75 C9.653,7.75 7.75,9.653 7.75,12 Z M5.459,4.398 L6.52,5.459 C6.812,5.752 6.812,6.227 6.52,6.52 C6.227,6.812 5.752,6.812 5.459,6.52 L4.398,5.459 C4.105,5.166 4.105,4.691 4.398,4.398 C4.691,4.105 5.166,4.105 5.459,4.398 Z M2,11.25 L3.5,11.25 C3.914,11.25 4.25,11.586 4.25,12 C4.25,12.414 3.914,12.75 3.5,12.75 L2,12.75 C1.586,12.75 1.25,12.414 1.25,12 C1.25,11.586 1.586,11.25 2,11.25 Z M12.75,2 L12.75,3.5 C12.75,3.914 12.414,4.25 12,4.25 C11.586,4.25 11.25,3.914 11.25,3.5 L11.25,2 C11.25,1.586 11.586,1.25 12,1.25 C12.414,1.25 12.75,1.586 12.75,2 Z M20.5,11.25 L22,11.25 C22.414,11.25 22.75,11.586 22.75,12 C22.75,12.414 22.414,12.75 22,12.75 L20.5,12.75 C20.086,12.75 19.75,12.414 19.75,12 C19.75,11.586 20.086,11.25 20.5,11.25 Z M12.75,20.5 L12.75,22 C12.75,22.414 12.414,22.75 12,22.75 C11.586,22.75 11.25,22.414 11.25,22 L11.25,20.5 C11.25,20.086 11.586,19.75 12,19.75 C12.414,19.75 12.75,20.086 12.75,20.5 Z M6.52,18.541 L5.459,19.602 C5.167,19.895 4.692,19.895 4.399,19.602 C4.106,19.309 4.106,18.834 4.399,18.541 L5.459,17.48 C5.752,17.188 6.227,17.188 6.52,17.48 C6.813,17.773 6.813,18.248 6.52,18.541 Z M19.602,5.459 L18.541,6.52 C18.248,6.813 17.773,6.813 17.48,6.52 C17.187,6.227 17.187,5.752 17.48,5.459 L18.541,4.398 C18.834,4.105 19.309,4.105 19.602,4.398 C19.895,4.691 19.895,5.166 19.602,5.459 Z M18.541,17.48 L19.601,18.541 C19.894,18.834 19.894,19.309 19.601,19.602 C19.308,19.895 18.833,19.895 18.541,19.602 L17.48,18.541 C17.187,18.248 17.187,17.773 17.48,17.48 C17.773,17.187 18.248,17.187 18.541,17.48 Z"
+                />
+              </svg>
+            </button>
+
+            <!-- Sign In Button -->
+            <button onclick="openSignInModal()" class="btn-primary">
+              Sign In
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- hero section -->
+      <section class="mt-20 px-4">
+        <div
+          class="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-12 lg:py-16"
+        >
+          <div class="badge">Quiz app for O level</div>
+          <h1
+            class="text-foreground mt-10 mb-4 text-4xl leading-none font-extrabold tracking-tight text-balance lg:text-7xl"
+          >
+            Master O-Level Quizzes Like a Pro
+          </h1>
+          <p
+            class="text-muted-foreground mb-8 text-sm font-normal text-balance sm:px-16 lg:text-lg xl:px-48"
+          >
+            Transform your study sessions with our intelligent quiz platform.
+            Practice with timed constraints, get instant feedback, and track
+            your progress across multiple subjects.
+          </p>
+          <div
+            class="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 lg:mb-16"
+          >
+            <button onclick="startQuiz()" class="btn-primary">
+              Start Free Quiz
+              <i data-lucide="arrow-right" class="ml-2 inline h-5 w-5"></i>
+            </button>
+          </div>
+          <div class="mx-auto grid max-w-md grid-cols-3 gap-6">
+            <div class="stat-card">
+              <div class="text-foreground mb-1 text-2xl font-bold">1K+</div>
+              <div class="text-muted-foreground text-sm">Questions</div>
+            </div>
+            <div class="stat-card">
+              <div class="text-foreground mb-1 text-2xl font-bold">1K+</div>
+              <div class="text-muted-foreground text-sm">Questions</div>
+            </div>
+            <div class="stat-card">
+              <div class="text-foreground mb-1 text-2xl font-bold">1K+</div>
+              <div class="text-muted-foreground text-sm">Questions</div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-10">
+          <img
+            src="/assets/image/app-screen-laptop.png"
+            loading="lazy"
+            class="mx-auto h-auto w-full max-w-5xl max-sm:hidden"
+          />
+          <img
+            src="/assets/image/app-screen-mobile.png"
+            loading="lazy"
+            class="mx-auto hidden h-auto w-full max-w-2xl max-sm:block"
+          />
+        </div>
+      </section>
+
+      <!-- Features Section -->
+      <section id="features" class="features-section mt-40">
+        <div class="mx-auto max-w-7xl px-4">
+          <!-- Section Header -->
+          <div class="mb-20 text-center">
+            <div class="badge">Powerful Features</div>
+            <h2 class="mt-10 mb-6 text-4xl font-bold lg:text-5xl">
+              Everything You Need to <span class="gradient-text">Excel</span>
+            </h2>
+            <p
+              class="text-muted-foreground mx-auto max-w-3xl text-base text-balance lg:text-lg"
+            >
+              Our comprehensive platform provides all the tools and features you
+              need to master your O-Level subjects efficiently.
+            </p>
+          </div>
+
+          <!-- Features Grid -->
+          <div class="mb-16 grid grid-cols-1 gap-8 md:grid-cols-2">
+            <!-- Feature 1: Timed Quizzes -->
+            <div class="feature-card text-center">
+              <div
+                class="feature-icon bg-gradient-to-br from-blue-100 to-blue-200 dark:from-blue-900 dark:to-blue-800"
+              >
+                <i
+                  data-lucide="clock"
+                  class="h-8 w-8 text-blue-600 dark:text-blue-400"
+                ></i>
+              </div>
+              <h3 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">
+                Smart Timed Quizzes
+              </h3>
+              <p class="leading-relaxed text-gray-600 dark:text-gray-300">
+                Practice under realistic exam conditions with adaptive time
+                limits that adjust to your skill level and question difficulty.
+              </p>
+            </div>
+
+            <!-- Feature 2: Instant Feedback -->
+            <div class="feature-card text-center">
+              <div
+                class="feature-icon bg-gradient-to-br from-green-100 to-green-200 dark:from-green-900 dark:to-green-800"
+              >
+                <i
+                  data-lucide="zap"
+                  class="h-8 w-8 text-green-600 dark:text-green-400"
+                ></i>
+              </div>
+              <h3 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">
+                Instant Feedback
+              </h3>
+              <p class="leading-relaxed text-gray-600 dark:text-gray-300">
+                Get immediate detailed explanations for every answer, helping
+                you understand concepts and learn from mistakes instantly.
+              </p>
+            </div>
+
+            <!-- Feature 3: Question Bank -->
+            <div class="feature-card text-center">
+              <div
+                class="feature-icon bg-gradient-to-br from-purple-100 to-purple-200 dark:from-purple-900 dark:to-purple-800"
+              >
+                <i
+                  data-lucide="database"
+                  class="h-8 w-8 text-purple-600 dark:text-purple-400"
+                ></i>
+              </div>
+              <h3 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">
+                Vast Question Bank
+              </h3>
+              <p class="leading-relaxed text-gray-600 dark:text-gray-300">
+                Access over 10,000 carefully curated questions across all
+                O-Level subjects, organized by topics and difficulty levels.
+              </p>
+            </div>
+
+            <!-- Feature 6: Multi-Platform -->
+            <div class="feature-card text-center">
+              <div
+                class="feature-icon bg-gradient-to-br from-pink-100 to-pink-200 dark:from-pink-900 dark:to-pink-800"
+              >
+                <i
+                  data-lucide="smartphone"
+                  class="h-8 w-8 text-pink-600 dark:text-pink-400"
+                ></i>
+              </div>
+              <h3 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">
+                Study Anywhere
+              </h3>
+              <p class="leading-relaxed text-gray-600 dark:text-gray-300">
+                Seamlessly sync your progress across all devices. Study on
+                desktop, tablet, or mobile with offline support.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Feature Highlight -->
+      <section class="mx-auto mt-40 max-w-7xl px-4">
+        <div class="bg-secondary w-full rounded-3xl px-4 py-20 text-center">
+          <h3
+            class="text-secondary-foreground mb-4 text-3xl font-bold lg:text-5xl"
+          >
+            Ready to Transform Your Learning?
+          </h3>
+          <p class="text-secondary-foreground/80 mb-8 text-base lg:text-lg">
+            Join thousands of students who have improved their grades with
+            MindArena
+          </p>
+          <button onclick="startQuiz()" class="btn-primary">
+            Start Your Free Trial
+            <i data-lucide="arrow-right" class="ml-2 inline h-5 w-5"></i>
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer mt-20">
+      <div class="mx-auto max-w-7xl px-4">
+        <!-- Main Footer Content -->
+        <div class="logo mx-auto w-max">
+          <img
+            src="/assets/image/logo-dark.svg"
+            alt="Mindarena logo"
+            class="dk"
+          />
+          <img
+            src="/assets/image/logo-light.svg"
+            alt="Mindarena logo"
+            class="lg"
+          />
+        </div>
+        <p
+          class="text-foreground mx-auto mt-4 mb-6 mb-10 max-w-2xl text-center leading-relaxed"
+        >
+          Empowering students to excel in their O-Level examinations through
+          intelligent, adaptive learning technology and comprehensive quiz
+          platforms.
+        </p>
+
+        <!-- Bottom Footer -->
+        <div
+          class="border-border text-muted-foreground flex flex-col items-center justify-between border-t py-7 text-sm md:flex-row"
+        >
+          <p class="mb-4 md:mb-0">© 2025 MindArena. All rights reserved.</p>
+          <p>Created for Students</p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Initialize Lucide icons
+      lucide.createIcons();
+
+      // Placeholder JavaScript functions
+      function openSignInModal() {
+        alert(
+          'Sign In modal would open here!\n\nThis would typically:\n- Show a sign-in modal\n- Handle user authentication\n- Redirect to dashboard',
+        );
+        console.log('openSignInModal() called');
+      }
+
+      function startQuiz() {
+        alert(
+          'Starting quiz!\n\nThis would typically:\n- Navigate to quiz selection\n- Load question sets\n- Initialize timer\n- Begin the quiz experience',
+        );
+        console.log('startQuiz() called');
+      }
+
+      function watchDemo() {
+        alert(
+          'Demo video would play here!\n\nThis would typically:\n- Open a video modal\n- Play product demonstration\n- Show key features in action',
+        );
+        console.log('watchDemo() called');
+      }
+
+      function openContact() {
+        alert(
+          'Contact support would open here!\n\nThis would typically:\n- Open contact form\n- Show support options\n- Connect with live chat',
+        );
+        console.log('openContact() called');
+      }
+
+      function subscribeNewsletter() {
+        const email = document.querySelector('input[type="email"]').value;
+        if (email) {
+          alert(
+            `Thank you for subscribing with email: ${email}\n\nYou'll receive our latest updates and study tips!`,
+          );
+          document.querySelector('input[type="email"]').value = '';
+        } else {
+          alert('Please enter a valid email address.');
+        }
+        console.log('subscribeNewsletter() called');
+      }
+
+      // FAQ Toggle functionality
+      function toggleFAQ(id) {
+        const answer = document.getElementById(`answer-${id}`);
+        const icon = document.getElementById(`icon-${id}`);
+
+        if (answer.classList.contains('hidden')) {
+          answer.classList.remove('hidden');
+          icon.style.transform = 'rotate(180deg)';
+        } else {
+          answer.classList.add('hidden');
+          icon.style.transform = 'rotate(0deg)';
+        }
+      }
+
+      // Dark mode toggle functionality
+      function toggleDarkMode() {
+        const html = document.documentElement;
+        const isDark = html.classList.contains('dark');
+
+        if (isDark) {
+          html.classList.remove('dark');
+          localStorage.setItem('theme', 'light');
+        } else {
+          html.classList.add('dark');
+          localStorage.setItem('theme', 'dark');
+        }
+
+        console.log('Theme toggled to:', isDark ? 'light' : 'dark');
+      }
+
+      // Initialize theme on page load
+      function initializeTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia(
+          '(prefers-color-scheme: dark)',
+        ).matches;
+        const themeToggle = document.getElementById('themeToggle');
+
+        if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+          document.documentElement.classList.add('dark');
+          themeToggle.checked = true;
+        } else {
+          document.documentElement.classList.remove('dark');
+          themeToggle.checked = false;
+        }
+      }
+
+      // Smooth scrolling for anchor links
+      function initializeSmoothScrolling() {
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+              target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+              });
+            }
+          });
+        });
+      }
+
+      // Add interactive feedback for buttons
+      function initializeButtonAnimations() {
+        const buttons = document.querySelectorAll('button');
+        buttons.forEach((button) => {
+          button.addEventListener('click', function () {
+            this.style.transform = 'scale(0.98)';
+            setTimeout(() => {
+              this.style.transform = 'scale(1)';
+            }, 100);
+          });
+        });
+      }
+
+      // Listen for system theme changes
+      window
+        .matchMedia('(prefers-color-scheme: dark)')
+        .addEventListener('change', (e) => {
+          if (!localStorage.getItem('theme')) {
+            if (e.matches) {
+              document.documentElement.classList.add('dark');
+              document.getElementById('themeToggle').checked = true;
+            } else {
+              document.documentElement.classList.remove('dark');
+              document.getElementById('themeToggle').checked = false;
+            }
+          }
+        });
+
+      // Initialize everything when DOM is loaded
+      document.addEventListener('DOMContentLoaded', function () {
+        initializeTheme();
+        initializeSmoothScrolling();
+        initializeButtonAnimations();
+
+        // Add scroll-based animations
+        const observerOptions = {
+          threshold: 0.1,
+          rootMargin: '0px 0px -50px 0px',
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.style.opacity = '1';
+              entry.target.style.transform = 'translateY(0)';
+            }
+          });
+        }, observerOptions);
+
+        // Observe feature cards for animation
+        document.querySelectorAll('.feature-card').forEach((card) => {
+          card.style.opacity = '0';
+          card.style.transform = 'translateY(20px)';
+          card.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+          observer.observe(card);
+        });
+      });
+    </script>
+    <script src="assets/js/helpers.js"></script>
   </body>
 </html>

@@ -63,5 +63,120 @@
       "File storage"
     ],
     "answer": "c"
+  },
+  {
+    "question": "Which part of the computer is responsible for storing data permanently?",
+    "options": ["RAM", "SSD", "Cache", "ALU"],
+    "answer": "b"
+  },
+  {
+    "question": "What does RAM stand for?",
+    "options": [
+      "Read Access Memory",
+      "Random Access Memory",
+      "Run Access Memory",
+      "Redundant Access Memory"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which unit directly interprets and executes program instructions?",
+    "options": ["Memory", "Hard Drive", "CPU", "Power Supply"],
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is an output device?",
+    "options": ["Keyboard", "Printer", "Scanner", "Trackpad"],
+    "answer": "b"
+  },
+  {
+    "question": "What unit is used to measure processing speed of a CPU?",
+    "options": ["Hertz", "Bits", "Bytes", "Pixels"],
+    "answer": "a"
+  },
+  {
+    "question": "Which storage unit is the largest?",
+    "options": ["Kilobyte", "Gigabyte", "Megabyte", "Terabyte"],
+    "answer": "d"
+  },
+  {
+    "question": "What does the acronym 'ROM' stand for?",
+    "options": [
+      "Read Only Memory",
+      "Run Only Memory",
+      "Random Output Memory",
+      "Read Output Memory"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which device is used to connect a computer to a network?",
+    "options": ["Monitor", "Mouse", "NIC", "Speaker"],
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is NOT a programming language?",
+    "options": ["Python", "HTML", "Java", "Linux"],
+    "answer": "d"
+  },
+  {
+    "question": "Which key combination is commonly used to copy selected text in most operating systems?",
+    "options": ["Ctrl + C", "Alt + C", "Shift + C", "Ctrl + V"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is considered volatile memory?",
+    "options": ["ROM", "SSD", "RAM", "Hard Disk"],
+    "answer": "c"
+  },
+  {
+    "question": "What is the file extension for a Microsoft Word document?",
+    "options": [".txt", ".docx", ".jpg", ".xlsx"],
+    "answer": "b"
+  },
+  {
+    "question": "Which device allows you to input graphical data into a computer?",
+    "options": ["Printer", "Scanner", "Monitor", "Speaker"],
+    "answer": "b"
+  },
+  {
+    "question": "The main circuit board inside a computer is called the:",
+    "options": ["CPU", "Motherboard", "RAM", "GPU"],
+    "answer": "b"
+  },
+  {
+    "question": "Which operating system is developed by Apple?",
+    "options": ["Linux", "Windows", "macOS", "Android"],
+    "answer": "c"
+  },
+  {
+    "question": "What is the process of starting a computer called?",
+    "options": ["Booting", "Uploading", "Installing", "Formatting"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is NOT an input device?",
+    "options": ["Microphone", "Webcam", "Speaker", "Mouse"],
+    "answer": "c"
+  },
+  {
+    "question": "What does GUI stand for?",
+    "options": [
+      "Global Uniform Interface",
+      "Graphical User Interface",
+      "General Utility Interface",
+      "Graphical Universal Input"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which one is an example of an application software?",
+    "options": ["MS Word", "BIOS", "Device Driver", "Kernel"],
+    "answer": "a"
+  },
+  {
+    "question": "Which shortcut is commonly used to paste copied text?",
+    "options": ["Ctrl + P", "Ctrl + V", "Ctrl + S", "Ctrl + X"],
+    "answer": "b"
   }
 ]

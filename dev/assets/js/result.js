@@ -1,14 +1,19 @@
 (async function () {
   const params = getQueryParam('set');
   const userAnswer = getQueryParam('answer');
+  const questionId = getQueryParam('question');
   const decodedUserAnswer = decodeURIComponent(userAnswer).split(',');
+  const decodedQuestionId = decodeURIComponent(questionId).split(',');
 
-  if (decodedUserAnswer.length !== 10) {
+  if (decodedUserAnswer.length !== 10 || decodedQuestionId.length !== 10) {
     redirectTo('/app');
     return;
   }
 
-  const questionList = await getQuestion(params);
+  console.log('Decoded User Answers:', decodedUserAnswer);
+  console.log('Decoded Question IDs:', decodedQuestionId);
+
+  const questionList = await getQuestion(params, true);
   if (!questionList) {
     redirectTo('/app');
     return;
@@ -18,8 +23,10 @@
   let component = '';
 
   let correctAnswerCount = 0;
-  questionList.forEach((element, idx) => {
-    const correctAnswer = element.answer;
+  decodedQuestionId.forEach((element, idx) => {
+    const question = questionList[element];
+
+    const correctAnswer = question.answer;
     const userSelected = decodedUserAnswer[idx] || '';
 
     const statuses = { a: 'default', b: 'default', c: 'default', d: 'default' };
@@ -41,11 +48,11 @@
     }
 
     const template = generateTemplate(resultComponent, {
-      question: element.question,
-      opta: element.options[0],
-      optb: element.options[1],
-      optc: element.options[2],
-      optd: element.options[3],
+      question: question.question,
+      opta: question.options[0],
+      optb: question.options[1],
+      optc: question.options[2],
+      optd: question.options[3],
       a: statuses.a,
       b: statuses.b,
       c: statuses.c,

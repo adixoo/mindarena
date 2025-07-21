@@ -204,48 +204,28 @@
   }
 }
 
-@layer components {
-  .pill-group {
-    @apply flex space-x-4;
-  }
-
-  .pill {
-    @apply flex cursor-pointer items-center rounded-lg bg-white px-4 py-2 text-gray-700 shadow-sm transition-shadow hover:shadow;
-  }
-
-  .pill-selected {
-    @apply border-2 border-indigo-500 bg-white shadow-lg;
-  }
-
-  .pill-content {
-    @apply flex items-center space-x-2 text-sm font-medium;
-  }
-
-  .pill-icon {
-    @apply h-4 w-4 text-indigo-500;
-  }
-
-  /* When the radio is selected, style the parent label */
-  .pill input:checked + .pill-content {
-    @apply text-indigo-600;
+.landing-page {
+  .badge {
+    @apply bg-secondary text-secondary-foreground mx-auto w-max rounded-full px-5 py-2 text-sm font-medium;
   }
 }
+
 /* button */
 @layer components {
   .btn-outline {
     @apply bg-secondary/50 hover:bg-secondary text-secondary-foreground border-primary cursor-pointer rounded-2xl border px-8 py-3 font-semibold shadow transition-[scale,background] active:scale-90;
   }
   .btn-primary {
-    @apply bg-primary hover:bg-primary/80 cursor-pointer rounded-2xl px-8 py-3 font-semibold text-white shadow transition-[scale,background] active:scale-90;
+    @apply bg-primary hover:bg-primary/80 cursor-pointer rounded-2xl px-8 py-3 text-sm font-semibold text-white shadow transition-[scale,background] active:scale-90 sm:text-base;
   }
   .btn-prev-nxt-wrap {
     @apply max-sm:grid max-sm:grid-cols-2 max-sm:gap-2 sm:space-x-2;
   }
   .theme-btn {
-    @apply bg-secondary text-secondary-foreground hover:bg-secondary/80 relative flex size-10 cursor-pointer items-center justify-center rounded-full transition-colors;
+    @apply bg-secondary text-secondary-foreground hover:bg-secondary/80 relative flex size-9 cursor-pointer items-center justify-center rounded-full transition-colors sm:size-10;
 
     svg {
-      @apply absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+      @apply absolute top-1/2 left-1/2 size-5 -translate-x-1/2 -translate-y-1/2;
     }
   }
 }
@@ -280,7 +260,7 @@
 @layer utilities {
   .logo {
     img {
-      @apply h-10 w-auto;
+      @apply h-7 w-auto sm:h-10;
     }
     .dk {
       @apply hidden dark:inline;
@@ -321,10 +301,10 @@
     }
   }
   .question-label {
-    @apply text-card-foreground mb-4 flex items-end text-base font-medium sm:text-lg;
+    @apply text-muted-foreground mb-4 flex items-end text-sm font-medium sm:text-base;
   }
   .question-total {
-    @apply text-muted-foreground ml-0.5 align-top text-sm sm:text-base;
+    @apply ml-0.5 align-top text-sm sm:text-base;
   }
   .quiz-box {
     @apply bg-card flex h-full min-w-[100%] flex-col justify-between rounded-3xl p-8;

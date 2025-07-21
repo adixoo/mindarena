@@ -9,7 +9,7 @@ const extractComponent = (selector) => {
 
 // Asynchronous function to fetch question data from a given JSON “set”
 // Returns parsed JSON or throws an error on failure
-async function getQuestion(set) {
+async function getQuestion(set, all = false) {
   const QUESTIONS_URL = `/assets/questions/${set}.json`;
 
   try {
@@ -25,7 +25,26 @@ async function getQuestion(set) {
     }
 
     const data = await response.json();
-    return data;
+    if (all) return data;
+    // Map questions with their index, strip out 'answer'
+    const questionsWithIndex = data.map((q, idx) => ({
+      index: idx,
+      question: q.question,
+      options: q.options,
+      // No 'answer' here
+    }));
+
+    // Shuffle the questions
+    for (let i = questionsWithIndex.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [questionsWithIndex[i], questionsWithIndex[j]] = [
+        questionsWithIndex[j],
+        questionsWithIndex[i],
+      ];
+    }
+
+    // Return first 10
+    return questionsWithIndex.slice(0, 10);
   } catch (error) {
     throw error;
   }

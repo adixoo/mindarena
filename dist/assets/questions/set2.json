@@ -45,13 +45,154 @@
     "answer": "a"
   },
   {
-    "question": "Which technology uses radio waves for short‑range personal networks?",
-    "options": ["Ethernet", "Wi‑Fi", "Bluetooth", "Fiber optics"],
+    "question": "Which technology uses radio waves for short-range personal networks?",
+    "options": ["Ethernet", "Wi-Fi", "Bluetooth", "Fiber optics"],
     "answer": "c"
   },
   {
     "question": "Which of the following is a valid private IP address?",
     "options": ["8.8.8.8", "192.168.1.1", "172.32.5.4", "256.0.0.1"],
+    "answer": "b"
+  },
+  {
+    "question": "Which device often assigns IP addresses to devices on a LAN?",
+    "options": ["Switch", "Router", "Printer", "Monitor"],
+    "answer": "b"
+  },
+  {
+    "question": "What protocol is most commonly used for communication within a LAN?",
+    "options": ["HTTP", "Ethernet", "FTP", "SMTP"],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following best describes a WAN?",
+    "options": [
+      "Connects devices in one room",
+      "Connects devices across cities or countries",
+      "Connects devices on one network segment",
+      "Connects devices only wirelessly"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What is the function of the Data Link layer in the OSI model?",
+    "options": [
+      "Formats and encrypts data",
+      "Hardware addressing and error detection within a local network",
+      "Routes packets between networks",
+      "Provides end-user services"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which layer of the OSI model is in charge of flow control and reliable data transfer?",
+    "options": ["Session", "Data Link", "Transport", "Presentation"],
+    "answer": "c"
+  },
+  {
+    "question": "What does IP stand for in networking?",
+    "options": [
+      "Internet Protocol",
+      "Instant Processor",
+      "Internal Program",
+      "Input Peripheral"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which type of cable is most commonly associated with wired LAN connections?",
+    "options": ["HDMI", "Coaxial", "Ethernet (Twisted Pair)", "Optical Fiber"],
+    "answer": "c"
+  },
+  {
+    "question": "Which of these is NOT a wireless networking standard?",
+    "options": ["802.11", "Bluetooth", "Ethernet", "Wi-Fi"],
+    "answer": "c"
+  },
+  {
+    "question": "Which layer of the OSI model uses MAC addresses for communication?",
+    "options": ["Network", "Application", "Data Link", "Session"],
+    "answer": "c"
+  },
+  {
+    "question": "Which OSI layer is responsible for establishing, managing, and terminating sessions?",
+    "options": ["Presentation", "Transport", "Session", "Physical"],
+    "answer": "c"
+  },
+
+  {
+    "question": "Which OSI model layer is responsible for translating, encrypting, and compressing data?",
+    "options": [
+      "Session Layer",
+      "Transport Layer",
+      "Presentation Layer",
+      "Application Layer"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "What is the function of a default gateway in a LAN?",
+    "options": [
+      "Assigns IP addresses to devices",
+      "Routes traffic from a local network to devices outside the LAN",
+      "Controls firewall permissions",
+      "Hosts shared printers"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which network topology connects every device to every other device?",
+    "options": ["Star", "Bus", "Ring", "Mesh"],
+    "answer": "d"
+  },
+  {
+    "question": "What transmission medium is most commonly used in modern LANs?",
+    "options": [
+      "Coaxial Cable",
+      "Unshielded Twisted Pair (UTP)",
+      "Optical Fiber",
+      "Infrared"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a purpose of using VLANs?",
+    "options": [
+      "To increase broadcast domains",
+      "To isolate network traffic",
+      "To increase security",
+      "To speed up the physical cabling"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "Which protocol is used to resolve IP addresses to MAC addresses in a LAN?",
+    "options": ["DHCP", "DNS", "ARP", "RARP"],
+    "answer": "c"
+  },
+  {
+    "question": "What type of device forwards data based on MAC addresses?",
+    "options": ["Hub", "Switch", "Router", "Firewall"],
+    "answer": "b"
+  },
+  {
+    "question": "How many layers are there in the OSI reference model?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "c"
+  },
+  {
+    "question": "What is the typical speed range of a standard Ethernet LAN?",
+    "options": [
+      "1-10 Mbps",
+      "10-100 Mbps",
+      "100-1,000 Mbps",
+      "1,000-10,000 Mbps"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which device enables communication between networks with different protocols?",
+    "options": ["Switch", "Gateway", "Repeater", "Modem"],
     "answer": "b"
   }
 ]

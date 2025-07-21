@@ -78,5 +78,65 @@
       "Manage network traffic"
     ],
     "answer": "c"
+  },
+  {
+    "question": "What is the function of a default gateway in a LAN?",
+    "options": [
+      "Assigns IP addresses to devices",
+      "Routes traffic from a local network to devices outside the LAN",
+      "Controls firewall permissions",
+      "Hosts shared printers"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which network topology connects every device to every other device?",
+    "options": ["Star", "Bus", "Ring", "Mesh"],
+    "answer": "d"
+  },
+  {
+    "question": "What transmission medium is most commonly used in modern LANs?",
+    "options": [
+      "Coaxial Cable",
+      "Unshielded Twisted Pair (UTP)",
+      "Optical Fiber",
+      "Infrared"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a purpose of using VLANs?",
+    "options": [
+      "To increase broadcast domains",
+      "To isolate network traffic",
+      "To increase security",
+      "To speed up the physical cabling"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "Which protocol is used to resolve IP addresses to MAC addresses in a LAN?",
+    "options": ["DHCP", "DNS", "ARP", "RARP"],
+    "answer": "c"
+  },
+  {
+    "question": "What type of device forwards data based on MAC addresses?",
+    "options": ["Hub", "Switch", "Router", "Firewall"],
+    "answer": "b"
+  },
+  {
+    "question": "How many layers are there in the OSI reference model?",
+    "options": ["5", "6", "7", "8"],
+    "answer": "c"
+  },
+  {
+    "question": "What is the typical speed range of a standard Ethernet LAN?",
+    "options": [
+      "1-10 Mbps",
+      "10-100 Mbps",
+      "100-1,000 Mbps",
+      "1,000-10,000 Mbps"
+    ],
+    "answer": "b"
   }
 ]
