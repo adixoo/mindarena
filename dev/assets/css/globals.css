@@ -192,6 +192,126 @@
     font-weight: 300;
   }
 }
+
+/* ladnign page */
+
+@layer utilities {
+  .landing-page {
+    .navbar {
+      @apply bg-background fixed top-0 left-0 z-50 w-full;
+      .nav {
+        @apply mx-auto max-w-7xl px-4;
+      }
+      .nav-wrapper {
+        @apply flex h-20 items-center justify-between;
+      }
+      .nav-action {
+        @apply flex items-center space-x-4;
+      }
+    }
+    .badge {
+      @apply bg-secondary text-secondary-foreground mx-auto w-max rounded-full px-5 py-2 text-sm font-medium;
+    }
+    .hero {
+      @apply mt-20 px-4;
+      .hero-items {
+        @apply mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-12 lg:py-16;
+      }
+      .hero-heading {
+        @apply text-foreground mt-10 mb-4 text-4xl leading-none font-extrabold tracking-tight text-balance lg:text-7xl;
+      }
+      .hero-para {
+        @apply text-muted-foreground mb-8 text-sm font-normal text-balance sm:px-16 lg:text-lg xl:px-48;
+      }
+      .hero-component {
+        @apply mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 lg:mb-16;
+      }
+      .info-grid {
+        @apply mx-auto mb-10 grid max-w-md grid-cols-3 gap-6;
+      }
+      .info-number {
+        @apply text-foreground mb-1 text-2xl font-bold;
+      }
+      .info-label {
+        @apply text-muted-foreground text-sm;
+      }
+      .hero-img-mobile {
+        @apply mx-auto hidden h-auto w-full max-w-2xl max-sm:block;
+      }
+      .hero-img-desktop {
+        @apply mx-auto h-auto w-full max-w-5xl max-sm:hidden;
+      }
+    }
+
+    .features {
+      @apply mt-40;
+      .features-wrapper {
+        @apply mx-auto max-w-7xl px-4;
+      }
+      .feature-header {
+        @apply mb-20 text-center;
+
+        .feature-heading {
+          @apply mt-10 mb-6 text-4xl font-bold lg:text-5xl;
+        }
+        .feature-para {
+          @apply text-muted-foreground mx-auto max-w-3xl text-base text-balance lg:text-lg;
+        }
+      }
+      .feature-content {
+        @apply mb-16 grid grid-cols-1 gap-14 md:grid-cols-2;
+        .feature-card {
+          @apply text-center;
+          .feature-icon {
+            @apply mx-auto w-max;
+            svg {
+              @apply text-primary mb-8 size-10;
+            }
+          }
+          .feature-head {
+            @apply mb-4 text-xl font-bold text-gray-900 dark:text-white;
+          }
+          .feature-para {
+            @apply leading-relaxed text-gray-600 dark:text-gray-300;
+          }
+        }
+      }
+    }
+
+    .cta {
+      @apply mx-auto mt-40 max-w-7xl px-4;
+      .cta-wrapper {
+        @apply bg-secondary w-full rounded-3xl px-4 py-20 text-center;
+      }
+      .cta-head {
+        @apply text-secondary-foreground mb-4 text-3xl font-bold lg:text-5xl;
+      }
+      .cta-para {
+        @apply text-secondary-foreground/80 mb-8 text-base lg:text-lg;
+      }
+    }
+
+    footer {
+      @apply mt-20;
+      .footer-wrapper {
+        @apply mx-auto max-w-7xl px-4;
+      }
+      .footer-logo {
+        @apply mx-auto w-max;
+      }
+      .footer-para {
+        @apply text-foreground mx-auto mt-4 mb-6 max-w-2xl text-center leading-relaxed;
+      }
+      .footer-legal {
+        @apply border-border text-muted-foreground flex flex-col items-center justify-between border-t py-7 text-sm md:flex-row;
+      }
+      .footer-copyright {
+        @apply mb-4 md:mb-0;
+      }
+    }
+  }
+}
+
 @layer utilities {
   .main-app {
     @apply mx-auto w-full max-w-5xl p-4;
@@ -201,12 +321,6 @@
   }
   .quiz-set {
     @apply grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3;
-  }
-}
-
-.landing-page {
-  .badge {
-    @apply bg-secondary text-secondary-foreground mx-auto w-max rounded-full px-5 py-2 text-sm font-medium;
   }
 }
 
@@ -388,19 +502,19 @@
 
 @layer components {
   .page-wrapper {
-    @apply flex min-h-dvh items-center justify-center bg-gray-100 dark:bg-gray-900;
+    @apply flex min-h-dvh items-center justify-center;
   }
   .form-container {
     @apply w-full max-w-sm p-4 text-center;
   }
   .welcome-text {
-    @apply mb-2 text-gray-700 dark:text-gray-300;
+    @apply mb-2;
   }
   .title {
-    @apply mb-1 text-4xl font-bold text-gray-800 dark:text-gray-100;
+    @apply mb-1 text-4xl font-bold;
   }
   .subtitle {
-    @apply mt-6 mb-20 text-xl text-gray-600 dark:text-gray-300;
+    @apply mt-6 mb-20 text-xl;
   }
   .signin-form {
     @apply flex flex-col gap-4;
