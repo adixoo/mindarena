@@ -1,0 +1,477 @@
+[
+  {
+    "question": "Which device is used to detect changes in the physical environment?",
+    "code": "",
+    "options": ["Actuator", "Sensor", "Microcontroller", "Transistor"],
+    "answer": "b"
+  },
+  {
+    "question": "Which device converts electrical signals into physical movement?",
+    "code": "",
+    "options": ["Sensor", "Microcontroller", "Actuator", "Resistor"],
+    "answer": "c"
+  },
+  {
+    "question": "What does a microcontroller primarily consist of?",
+    "code": "",
+    "options": [
+      "CPU only",
+      "CPU, Memory, and I/O ports",
+      "Memory only",
+      "Input Devices"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which type of sensor detects temperature changes?",
+    "code": "",
+    "options": ["Thermistor", "LDR", "Accelerometer", "Ultrasonic Sensor"],
+    "answer": "a"
+  },
+  {
+    "question": "Which sensor detects light intensity?",
+    "code": "",
+    "options": ["LDR", "Thermistor", "Gyroscope", "Microphone"],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator is commonly used to control the rotation of robotic arms?",
+    "code": "",
+    "options": [
+      "Servo Motor",
+      "Thermistor",
+      "Microcontroller",
+      "Ultrasonic Sensor"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What is the function of an actuator in an embedded system?",
+    "code": "",
+    "options": [
+      "Sensing environment",
+      "Processing data",
+      "Producing action",
+      "Storing data"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which sensor is used for detecting distance by using sound waves?",
+    "code": "",
+    "options": ["Thermistor", "Ultrasonic Sensor", "LDR", "Gyroscope"],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is an example of a digital sensor?",
+    "code": "",
+    "options": ["Ultrasonic Sensor", "LDR", "Thermistor", "Analog Microphone"],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator is used to create linear motion?",
+    "code": "",
+    "options": ["Servo Motor", "Stepper Motor", "Linear Actuator", "Gyroscope"],
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following microcontrollers is commonly used in Arduino boards?",
+    "code": "",
+    "options": ["8051", "PIC16F84", "ATmega328", "MSP430"],
+    "answer": "c"
+  },
+  {
+    "question": "What is the role of a microcontroller in an embedded system?",
+    "code": "",
+    "options": [
+      "Only sensing",
+      "Only acting",
+      "Controlling and processing",
+      "Only storing"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which sensor is used to measure orientation and angular velocity?",
+    "code": "",
+    "options": [
+      "Accelerometer",
+      "Gyroscope",
+      "Thermistor",
+      "Ultrasonic Sensor"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which sensor is used to detect sound levels?",
+    "code": "",
+    "options": ["Microphone", "LDR", "Thermistor", "Ultrasonic Sensor"],
+    "answer": "a"
+  },
+  {
+    "question": "Which motor rotates in fixed step angles?",
+    "code": "",
+    "options": ["DC Motor", "Servo Motor", "Stepper Motor", "Linear Actuator"],
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is an example of an analog sensor?",
+    "code": "",
+    "options": ["LDR", "Thermistor", "Microphone", "All of the above"],
+    "answer": "d"
+  },
+  {
+    "question": "Which microcontroller family is widely used in automotive systems?",
+    "code": "",
+    "options": ["ATmega", "ARM Cortex", "PIC", "8051"],
+    "answer": "b"
+  },
+  {
+    "question": "Which actuator is typically used in printers to move the print head?",
+    "code": "",
+    "options": [
+      "Servo Motor",
+      "Stepper Motor",
+      "Linear Actuator",
+      "Hydraulic Actuator"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which device is considered the 'brain' of an embedded system?",
+    "code": "",
+    "options": ["Sensor", "Microcontroller", "Actuator", "Power Supply"],
+    "answer": "b"
+  },
+  {
+    "question": "Which type of microcontroller is most energy efficient for IoT devices?",
+    "code": "",
+    "options": ["8051", "ARM Cortex-M", "PIC16F", "ATmega"],
+    "answer": "b"
+  },
+  {
+    "question": "Which sensor is used to detect the presence of nearby objects without physical contact?",
+    "code": "",
+    "options": ["Proximity Sensor", "Thermistor", "LDR", "Microphone"],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator produces motion by using pressurized fluid?",
+    "code": "",
+    "options": [
+      "Hydraulic Actuator",
+      "Stepper Motor",
+      "Servo Motor",
+      "Linear Actuator"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which type of microcontroller is commonly used in Raspberry Pi Pico?",
+    "code": "",
+    "options": ["ATmega328", "RP2040", "PIC16F", "8051"],
+    "answer": "b"
+  },
+  {
+    "question": "Which sensor detects acceleration in mobile phones?",
+    "code": "",
+    "options": ["Accelerometer", "Gyroscope", "Thermistor", "LDR"],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator is used to produce sound in alarms?",
+    "code": "",
+    "options": [
+      "Servo Motor",
+      "Piezo Buzzer",
+      "Stepper Motor",
+      "Hydraulic Actuator"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which microcontroller is widely used in robotics due to its flexibility?",
+    "code": "",
+    "options": ["ATmega328", "PIC16F", "ARM Cortex-M", "8051"],
+    "answer": "c"
+  },
+  {
+    "question": "Which type of signal does an analog sensor generate?",
+    "code": "",
+    "options": [
+      "Continuous signal",
+      "Discrete signal",
+      "Digital data",
+      "Pulse signal"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which type of signal does a digital sensor generate?",
+    "code": "",
+    "options": [
+      "Continuous signal",
+      "Analog voltage",
+      "Discrete values",
+      "Noise signal"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is a temperature sensor?",
+    "code": "",
+    "options": ["Thermistor", "LDR", "Microphone", "Proximity Sensor"],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator converts electrical energy into rotary motion?",
+    "code": "",
+    "options": ["Servo Motor", "DC Motor", "Stepper Motor", "All of the above"],
+    "answer": "d"
+  },
+  {
+    "question": "Which microcontroller is best suited for low-power wearable devices?",
+    "code": "",
+    "options": ["ATmega328", "ARM Cortex-M0", "PIC18F", "8051"],
+    "answer": "b"
+  },
+  {
+    "question": "Which sensor is used in smartphones for automatic screen rotation?",
+    "code": "",
+    "options": ["Accelerometer", "Thermistor", "LDR", "Microphone"],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator is often used in drones for propeller control?",
+    "code": "",
+    "options": ["Servo Motor", "Stepper Motor", "DC Motor", "Linear Actuator"],
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is NOT an actuator?",
+    "code": "",
+    "options": [
+      "Servo Motor",
+      "Stepper Motor",
+      "Thermistor",
+      "Hydraulic Actuator"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "What is the main advantage of using microcontrollers in embedded systems?",
+    "code": "",
+    "options": [
+      "High cost",
+      "Large size",
+      "Integration of CPU, memory, and I/O",
+      "Slow performance"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which type of actuator is used in car engines for fuel injection control?",
+    "code": "",
+    "options": [
+      "Stepper Motor",
+      "Servo Motor",
+      "Piezo Actuator",
+      "Hydraulic Actuator"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which sensor is used in automatic streetlights?",
+    "code": "",
+    "options": ["LDR", "Thermistor", "Microphone", "Accelerometer"],
+    "answer": "a"
+  },
+  {
+    "question": "Which microcontroller is often used in industrial automation?",
+    "code": "",
+    "options": ["8051", "PIC", "ARM Cortex", "All of the above"],
+    "answer": "d"
+  },
+  {
+    "question": "Which actuator is best for precise angular control?",
+    "code": "",
+    "options": [
+      "Stepper Motor",
+      "DC Motor",
+      "Hydraulic Actuator",
+      "Linear Actuator"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which sensor is used in cars for airbag deployment?",
+    "code": "",
+    "options": ["Accelerometer", "Thermistor", "LDR", "Proximity Sensor"],
+    "answer": "a"
+  },
+  {
+    "question": "Which sensor is used in touch screens to detect user input?",
+    "code": "",
+    "options": ["Capacitive Sensor", "Thermistor", "LDR", "Gyroscope"],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator is used in loudspeakers to produce sound?",
+    "code": "",
+    "options": [
+      "DC Motor",
+      "Piezoelectric Actuator",
+      "Servo Motor",
+      "Stepper Motor"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which microcontroller architecture is RISC-based?",
+    "code": "",
+    "options": ["ARM Cortex", "8051", "Z80", "Intel 8086"],
+    "answer": "a"
+  },
+  {
+    "question": "Which sensor detects the Earth's magnetic field for navigation?",
+    "code": "",
+    "options": [
+      "Magnetometer",
+      "Accelerometer",
+      "Gyroscope",
+      "Ultrasonic Sensor"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator uses compressed air to create motion?",
+    "code": "",
+    "options": [
+      "Pneumatic Actuator",
+      "Hydraulic Actuator",
+      "Stepper Motor",
+      "DC Motor"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which microcontroller is commonly used in IoT devices?",
+    "code": "",
+    "options": ["ESP32", "8051", "PIC16F84", "Zilog Z80"],
+    "answer": "a"
+  },
+  {
+    "question": "Which sensor is used in digital thermometers?",
+    "code": "",
+    "options": ["Thermistor", "Accelerometer", "LDR", "Gyroscope"],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator is responsible for opening and closing valves in machines?",
+    "code": "",
+    "options": ["Solenoid", "Stepper Motor", "Servo Motor", "Linear Actuator"],
+    "answer": "a"
+  },
+  {
+    "question": "Which microcontroller feature allows it to handle multiple tasks at once?",
+    "code": "",
+    "options": ["Timer", "Interrupts", "Analog Input", "Clock Speed"],
+    "answer": "b"
+  },
+  {
+    "question": "Which sensor is used in cameras to measure light exposure?",
+    "code": "",
+    "options": ["Photodiode", "Thermistor", "Gyroscope", "Proximity Sensor"],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator is used in car door lock systems?",
+    "code": "",
+    "options": [
+      "Solenoid",
+      "Stepper Motor",
+      "Hydraulic Actuator",
+      "Servo Motor"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which microcontroller is widely used in home automation projects?",
+    "code": "",
+    "options": ["ESP8266", "8051", "PIC18F", "Z80"],
+    "answer": "a"
+  },
+  {
+    "question": "Which sensor is commonly used in smartwatches to track steps?",
+    "code": "",
+    "options": [
+      "Accelerometer",
+      "Thermistor",
+      "Microphone",
+      "Proximity Sensor"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator is used to move robotic grippers?",
+    "code": "",
+    "options": [
+      "Servo Motor",
+      "Stepper Motor",
+      "Linear Actuator",
+      "All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "Which microcontroller uses Wi-Fi and Bluetooth connectivity?",
+    "code": "",
+    "options": ["ESP32", "8051", "PIC16F", "ARM Cortex-M0"],
+    "answer": "a"
+  },
+  {
+    "question": "Which sensor is used to detect motion in automatic doors?",
+    "code": "",
+    "options": ["PIR Sensor", "Thermistor", "LDR", "Accelerometer"],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator is used for precise control in CNC machines?",
+    "code": "",
+    "options": ["Stepper Motor", "DC Motor", "Pneumatic Actuator", "Solenoid"],
+    "answer": "a"
+  },
+  {
+    "question": "Which microcontroller is often used in basic learning kits for students?",
+    "code": "",
+    "options": [
+      "Arduino Uno (ATmega328)",
+      "ESP8266",
+      "PIC18F",
+      "ARM Cortex-M4"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which sensor is used in cars to assist with parking?",
+    "code": "",
+    "options": [
+      "Ultrasonic Sensor",
+      "Thermistor",
+      "Accelerometer",
+      "Gyroscope"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which actuator is used in electric fans?",
+    "code": "",
+    "options": [
+      "DC Motor",
+      "Stepper Motor",
+      "Servo Motor",
+      "Hydraulic Actuator"
+    ],
+    "answer": "a"
+  }
+]

@@ -1,0 +1,528 @@
+[
+  {
+    "question": "Which of the following is the first step in building an IoT application?",
+    "code": "",
+    "options": [
+      "Deployment",
+      "Requirement analysis",
+      "Data visualization",
+      "Security implementation"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What does the 'Things' in IoT primarily refer to?",
+    "code": "",
+    "options": ["People", "Devices", "Applications", "Databases"],
+    "answer": "b"
+  },
+  {
+    "question": "Which communication protocol is widely used in IoT applications for lightweight messaging?",
+    "code": "",
+    "options": ["HTTP", "MQTT", "FTP", "SMTP"],
+    "answer": "b"
+  },
+  {
+    "question": "In IoT architecture, where is raw data usually processed before visualization?",
+    "code": "",
+    "options": ["Cloud", "Database", "Gateway", "End devices"],
+    "answer": "c"
+  },
+  {
+    "question": "Which layer of IoT architecture deals with sensing and actuation?",
+    "code": "",
+    "options": [
+      "Application layer",
+      "Perception layer",
+      "Network layer",
+      "Middleware layer"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following cloud platforms is commonly used for IoT application development?",
+    "code": "",
+    "options": ["AWS IoT", "MS Word", "Photoshop", "Autocad"],
+    "answer": "a"
+  },
+  {
+    "question": "What is the main purpose of a microcontroller in an IoT device?",
+    "code": "",
+    "options": [
+      "Store data permanently",
+      "Control and process sensor data",
+      "Only provide power",
+      "Design user interface"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which IoT development board is widely used for rapid prototyping?",
+    "code": "",
+    "options": ["Raspberry Pi", "Arduino", "MS Excel", "Photoshop"],
+    "answer": "b"
+  },
+  {
+    "question": "Which type of database is commonly used for storing IoT data streams?",
+    "code": "",
+    "options": [
+      "Relational database",
+      "NoSQL database",
+      "Spreadsheet",
+      "Flat file"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which IoT application domain uses smart meters for monitoring?",
+    "code": "",
+    "options": ["Healthcare", "Agriculture", "Smart Grid", "Transport"],
+    "answer": "c"
+  },
+  {
+    "question": "What does interoperability mean in IoT applications?",
+    "code": "",
+    "options": [
+      "Devices can work offline",
+      "Devices can work together across platforms",
+      "Devices do not need internet",
+      "Devices only store data"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which programming language is popular for IoT device firmware?",
+    "code": "",
+    "options": ["C", "HTML", "CSS", "SQL"],
+    "answer": "a"
+  },
+  {
+    "question": "Which security feature is essential in IoT applications?",
+    "code": "",
+    "options": [
+      "Strong encryption",
+      "More storage",
+      "High brightness",
+      "Larger screen"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is an example of an IoT application in healthcare?",
+    "code": "",
+    "options": [
+      "Smartwatch monitoring heart rate",
+      "ATM machine",
+      "Video editing software",
+      "Printer"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What role does cloud computing play in IoT applications?",
+    "code": "",
+    "options": [
+      "Data storage and analytics",
+      "Device charging",
+      "User authentication only",
+      "Creating mobile apps"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is a challenge in building IoT applications?",
+    "code": "",
+    "options": [
+      "High power consumption",
+      "Unlimited bandwidth",
+      "Automatic coding",
+      "No need of updates"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which wireless technology is commonly used for short-range IoT communication?",
+    "code": "",
+    "options": ["Bluetooth", "Satellite", "Optical fiber", "Ethernet"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is an open-source IoT platform?",
+    "code": "",
+    "options": ["ThingSpeak", "MS PowerPoint", "Adobe XD", "CorelDRAW"],
+    "answer": "a"
+  },
+  {
+    "question": "Which step comes last in IoT application development lifecycle?",
+    "code": "",
+    "options": [
+      "Requirement gathering",
+      "Deployment and maintenance",
+      "Prototyping",
+      "Testing"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which one is an example of IoT in agriculture?",
+    "code": "",
+    "options": [
+      "Smart irrigation system",
+      "Word processor",
+      "Online video call",
+      "E-mail system"
+    ],
+    "answer": "a"
+  },
+
+  {
+    "question": "Which of the following is a middleware role in IoT applications?",
+    "code": "",
+    "options": [
+      "Device connectivity",
+      "Data filtering and processing",
+      "Power supply",
+      "UI design"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What is the purpose of an actuator in IoT?",
+    "code": "",
+    "options": [
+      "Store data",
+      "Process data",
+      "Perform physical action",
+      "Connect to the internet"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which protocol is best suited for constrained IoT devices due to its low power usage?",
+    "code": "",
+    "options": ["HTTP", "CoAP", "SMTP", "DNS"],
+    "answer": "b"
+  },
+  {
+    "question": "In IoT applications, which layer ensures secure communication?",
+    "code": "",
+    "options": [
+      "Network layer",
+      "Security layer",
+      "Application layer",
+      "Presentation layer"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is an example of an IoT application in transportation?",
+    "code": "",
+    "options": [
+      "Smart traffic lights",
+      "Text messaging",
+      "Video conferencing",
+      "Digital painting"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What is edge computing in IoT?",
+    "code": "",
+    "options": [
+      "Storing data in external hard drives",
+      "Processing data closer to devices",
+      "Deleting data automatically",
+      "Creating backups in cloud"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which device is commonly used as a gateway in IoT systems?",
+    "code": "",
+    "options": ["Router", "Monitor", "Printer", "Scanner"],
+    "answer": "a"
+  },
+  {
+    "question": "Which sensor is typically used in IoT weather monitoring applications?",
+    "code": "",
+    "options": [
+      "Temperature sensor",
+      "Barcode scanner",
+      "Webcam",
+      "Microphone"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What does scalability mean in IoT applications?",
+    "code": "",
+    "options": [
+      "Ability to support more devices easily",
+      "Ability to change color of UI",
+      "Ability to work offline",
+      "Ability to replace hardware automatically"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which wireless communication is commonly used for long-range IoT devices?",
+    "code": "",
+    "options": ["LoRaWAN", "Bluetooth", "Wi-Fi", "USB"],
+    "answer": "a"
+  },
+  {
+    "question": "Which programming language is commonly used for data visualization in IoT applications?",
+    "code": "",
+    "options": ["Python", "C", "Assembly", "Batch"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is an example of a smart home IoT application?",
+    "code": "",
+    "options": [
+      "Smart thermostat",
+      "Photo editor",
+      "Spreadsheet",
+      "Search engine"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT feature allows devices to send data without continuous human intervention?",
+    "code": "",
+    "options": ["Automation", "Storage", "Encryption", "Virtualization"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT component ensures user interaction with devices?",
+    "code": "",
+    "options": ["Application", "Sensor", "Gateway", "Database"],
+    "answer": "a"
+  },
+  {
+    "question": "What is the role of big data in IoT applications?",
+    "code": "",
+    "options": [
+      "Analyze large data generated by devices",
+      "Power IoT devices",
+      "Build mobile apps",
+      "Replace firmware"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT application domain benefits from precision farming?",
+    "code": "",
+    "options": ["Agriculture", "Healthcare", "Banking", "E-commerce"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is a lightweight data format used in IoT communication?",
+    "code": "",
+    "options": ["JSON", "DOCX", "JPEG", "MP4"],
+    "answer": "a"
+  },
+  {
+    "question": "In IoT, firmware is stored in which type of memory?",
+    "code": "",
+    "options": ["ROM", "RAM", "Cache", "Registers"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT communication protocol works on publish-subscribe architecture?",
+    "code": "",
+    "options": ["MQTT", "FTP", "SMTP", "ARP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT development tool is commonly used for device-to-cloud integration?",
+    "code": "",
+    "options": ["Node-RED", "Photoshop", "MS Word", "Excel"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is the primary benefit of using IoT applications?",
+    "code": "",
+    "options": [
+      "Automation and efficiency",
+      "Manual monitoring",
+      "Increased paperwork",
+      "Reduced connectivity"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which communication protocol is often used in IoT for device discovery?",
+    "code": "",
+    "options": ["mDNS", "SMTP", "POP3", "IMAP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT device is used for monitoring heart rate and steps?",
+    "code": "",
+    "options": ["Smartwatch", "Desktop computer", "Printer", "Router"],
+    "answer": "a"
+  },
+  {
+    "question": "Which type of computing reduces latency by processing data near the device?",
+    "code": "",
+    "options": [
+      "Edge computing",
+      "Cloud computing",
+      "Grid computing",
+      "Quantum computing"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT application is most useful in logistics?",
+    "code": "",
+    "options": [
+      "Fleet tracking",
+      "Word processing",
+      "Video editing",
+      "Social media"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which sensor is most suitable for detecting motion in IoT devices?",
+    "code": "",
+    "options": [
+      "PIR sensor",
+      "Temperature sensor",
+      "Gas sensor",
+      "Light sensor"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What does latency mean in IoT communication?",
+    "code": "",
+    "options": [
+      "Delay in data transfer",
+      "Amount of storage",
+      "Number of sensors",
+      "Power capacity"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT application is commonly used in smart cities?",
+    "code": "",
+    "options": [
+      "Smart street lighting",
+      "Video games",
+      "Email service",
+      "Word editor"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which data type is most commonly transferred in IoT applications?",
+    "code": "",
+    "options": [
+      "Sensor readings",
+      "Movie files",
+      "Text documents",
+      "Spreadsheets"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is an example of IoT in industrial automation?",
+    "code": "",
+    "options": [
+      "Robotic arms controlled via sensors",
+      "Presentation slides",
+      "Video streaming",
+      "Typing tutor"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT device is often used in agriculture for soil monitoring?",
+    "code": "",
+    "options": [
+      "Moisture sensor",
+      "Barcode scanner",
+      "Joystick",
+      "Camera only"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which storage type is most suitable for IoT data logs?",
+    "code": "",
+    "options": ["Cloud storage", "Floppy disk", "Optical CD", "Magnetic tape"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is a wearable IoT device?",
+    "code": "",
+    "options": ["Fitness tracker", "Desktop PC", "Smart TV", "Printer"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is NOT a challenge of IoT?",
+    "code": "",
+    "options": [
+      "Power management",
+      "Security",
+      "Connectivity",
+      "Unlimited bandwidth"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "Which application area of IoT uses remote patient monitoring?",
+    "code": "",
+    "options": ["Healthcare", "Banking", "Gaming", "Education"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT protocol is designed for constrained devices and low-power networks?",
+    "code": "",
+    "options": ["6LoWPAN", "HTTPS", "SSH", "Telnet"],
+    "answer": "a"
+  },
+  {
+    "question": "What is the function of a gateway in IoT?",
+    "code": "",
+    "options": [
+      "Bridge devices to the internet",
+      "Print documents",
+      "Store movies",
+      "Display graphics"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is an IoT application in retail?",
+    "code": "",
+    "options": [
+      "Smart shelves with sensors",
+      "Spreadsheets",
+      "Digital painting",
+      "Online exams"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which programming environment is often used for IoT data flow automation?",
+    "code": "",
+    "options": ["Node-RED", "MS Excel", "Photoshop", "Illustrator"],
+    "answer": "a"
+  },
+  {
+    "question": "Which communication technology is suitable for IoT wearables?",
+    "code": "",
+    "options": [
+      "Bluetooth Low Energy (BLE)",
+      "Satellite",
+      "Optical fiber",
+      "Ethernet cable"
+    ],
+    "answer": "a"
+  }
+]

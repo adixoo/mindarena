@@ -1,0 +1,697 @@
+[
+  {
+    "question": "What does IoT stand for?",
+    "code": "",
+    "options": [
+      "Internet of Tools",
+      "Internet of Things",
+      "Integration of Technology",
+      "Intelligent Operational Technology"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is an example of an IoT device?",
+    "code": "",
+    "options": ["Smartphone", "Smart Bulb", "Laptop", "Desktop Computer"],
+    "answer": "b"
+  },
+  {
+    "question": "Which communication protocol is commonly used in IoT for low-power devices?",
+    "code": "",
+    "options": ["HTTP", "MQTT", "SMTP", "FTP"],
+    "answer": "b"
+  },
+  {
+    "question": "What is the primary goal of IoT?",
+    "code": "",
+    "options": [
+      "To increase internet speed",
+      "To interconnect devices and enable data exchange",
+      "To replace mobile phones",
+      "To improve email systems"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which layer in the IoT architecture handles device connectivity?",
+    "code": "",
+    "options": [
+      "Application Layer",
+      "Perception Layer",
+      "Network Layer",
+      "Business Layer"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is NOT an IoT application?",
+    "code": "",
+    "options": [
+      "Smart Homes",
+      "Wearable Health Devices",
+      "E-commerce Websites",
+      "Industrial Automation"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "In the IoT communication model, which entity collects data from sensors?",
+    "code": "",
+    "options": ["Cloud", "Gateway", "Actuator", "User"],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is a lightweight messaging protocol designed for IoT?",
+    "code": "",
+    "options": ["MQTT", "TCP", "UDP", "SMTP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT protocol is primarily used for constrained devices and networks?",
+    "code": "",
+    "options": ["CoAP", "HTTP", "IMAP", "SSH"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is an example of industrial IoT application?",
+    "code": "",
+    "options": [
+      "Smartwatch",
+      "Smart Refrigerator",
+      "Predictive Maintenance",
+      "Fitness Tracker"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following IoT applications belongs to healthcare?",
+    "code": "",
+    "options": [
+      "Smart Lights",
+      "Connected Thermostat",
+      "Remote Patient Monitoring",
+      "Smart Parking"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which type of IoT communication is based on direct device-to-device connectivity?",
+    "code": "",
+    "options": [
+      "M2M Communication",
+      "Cloud Communication",
+      "User Interaction",
+      "Application Protocol"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is an IoT application in smart cities?",
+    "code": "",
+    "options": [
+      "Email Communication",
+      "Traffic Management System",
+      "Online Shopping",
+      "Digital Banking"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What role do actuators play in IoT systems?",
+    "code": "",
+    "options": [
+      "They sense physical parameters",
+      "They provide connectivity",
+      "They perform actions based on data",
+      "They process data in the cloud"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following technologies provides short-range wireless communication for IoT devices?",
+    "code": "",
+    "options": ["Bluetooth", "Ethernet", "Satellite", "Fiber Optics"],
+    "answer": "a"
+  },
+  {
+    "question": "Which protocol is commonly used for secure communication in IoT?",
+    "code": "",
+    "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+    "answer": "b"
+  },
+  {
+    "question": "In IoT architecture, which layer ensures data is processed and stored?",
+    "code": "",
+    "options": [
+      "Perception Layer",
+      "Application Layer",
+      "Network Layer",
+      "Middleware Layer"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "Which communication model does IoT primarily use?",
+    "code": "",
+    "options": [
+      "Client-Server",
+      "Publisher-Subscriber",
+      "Peer-to-Peer",
+      "Point-to-Point"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following IoT applications helps in energy saving?",
+    "code": "",
+    "options": [
+      "Smart Meters",
+      "Remote Surgery",
+      "Online Exams",
+      "Digital Marketing"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which technology is often integrated with IoT for data analysis?",
+    "code": "",
+    "options": [
+      "Artificial Intelligence",
+      "Virtual Reality",
+      "Blockchain",
+      "3D Printing"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is the first step in the IoT communication process?",
+    "code": "",
+    "options": [
+      "Data Storage",
+      "Data Collection",
+      "Data Processing",
+      "Data Visualization"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which IoT protocol is designed for web transfer over constrained devices?",
+    "code": "",
+    "options": ["CoAP", "SMTP", "SNMP", "IMAP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which wireless technology is widely used in smart home IoT devices?",
+    "code": "",
+    "options": ["Zigbee", "Ethernet", "Satellite", "Coaxial Cable"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following best defines the IoT communication model?",
+    "code": "",
+    "options": [
+      "Data travels from sensors to the internet for decision-making",
+      "Data remains within the device only",
+      "Devices operate without networking",
+      "All communication occurs offline"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is an IoT security protocol?",
+    "code": "",
+    "options": ["DTLS", "SMTP", "POP3", "Telnet"],
+    "answer": "a"
+  },
+  {
+    "question": "Which cloud platform is commonly used for IoT device integration?",
+    "code": "",
+    "options": ["AWS IoT Core", "Oracle Database", "Adobe Photoshop", "VMware"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is a key challenge in IoT?",
+    "code": "",
+    "options": [
+      "Scalability",
+      "Security",
+      "Interoperability",
+      "All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "What does the perception layer in IoT architecture do?",
+    "code": "",
+    "options": [
+      "Stores data",
+      "Provides services to users",
+      "Senses and collects physical information",
+      "Transmits data over networks"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which is a real-time operating system often used in IoT devices?",
+    "code": "",
+    "options": ["TinyOS", "Linux Mint", "Windows 10", "macOS"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is NOT an IoT communication protocol?",
+    "code": "",
+    "options": ["Z-Wave", "LoRaWAN", "HTTP", "SQL"],
+    "answer": "d"
+  },
+  {
+    "question": "Which technology supports long-range, low-power IoT communication?",
+    "code": "",
+    "options": ["LoRaWAN", "Bluetooth", "Wi-Fi", "Zigbee"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following describes M2M communication in IoT?",
+    "code": "",
+    "options": [
+      "Machine to Machine",
+      "Mobile to Mobile",
+      "Model to Model",
+      "Mainframe to Mainframe"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is a common IoT communication architecture model?",
+    "code": "",
+    "options": [
+      "Device-to-Device",
+      "Device-to-Cloud",
+      "Device-to-Gateway",
+      "All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "What does an IoT gateway do?",
+    "code": "",
+    "options": [
+      "Acts as a power source",
+      "Connects IoT devices to the cloud",
+      "Monitors electricity usage",
+      "Manages only user interfaces"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which IoT application can improve agriculture productivity?",
+    "code": "",
+    "options": [
+      "Smart Irrigation",
+      "Smartwatch",
+      "Smart Refrigerator",
+      "Digital Ads"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is a lightweight data format commonly used in IoT?",
+    "code": "",
+    "options": ["XML", "JSON", "HTML", "CSV"],
+    "answer": "b"
+  },
+  {
+    "question": "Which communication protocol is considered secure for IoT data transfer?",
+    "code": "",
+    "options": ["HTTPS", "Telnet", "FTP", "POP3"],
+    "answer": "a"
+  },
+  {
+    "question": "Which type of IoT devices are used in smart grids?",
+    "code": "",
+    "options": ["Smart Meters", "Fitness Bands", "Smart TVs", "Smart Watches"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is an IoT application in transportation?",
+    "code": "",
+    "options": [
+      "Fleet Management",
+      "E-learning",
+      "Video Conferencing",
+      "Online Shopping"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which protocol is designed for constrained application environments in IoT?",
+    "code": "",
+    "options": ["CoAP", "HTTP/2", "DNS", "SNMP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which type of sensor is commonly used in IoT for measuring temperature?",
+    "code": "",
+    "options": ["Accelerometer", "Thermistor", "Gyroscope", "Magnetometer"],
+    "answer": "b"
+  },
+  {
+    "question": "Which IoT wireless technology operates in the 2.4 GHz frequency band and is used in home automation?",
+    "code": "",
+    "options": ["Zigbee", "LoRaWAN", "NFC", "5G"],
+    "answer": "a"
+  },
+  {
+    "question": "Which communication model in IoT allows devices to communicate with cloud servers for data storage?",
+    "code": "",
+    "options": [
+      "Device-to-Device",
+      "Device-to-Cloud",
+      "Device-to-Gateway",
+      "Edge-to-Device"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which IoT protocol is best suited for sending messages between devices with minimal bandwidth?",
+    "code": "",
+    "options": ["MQTT", "SMTP", "FTP", "HTTP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these IoT applications is used in retail?",
+    "code": "",
+    "options": [
+      "Smart Shelves",
+      "Remote Surgery",
+      "Traffic Sensors",
+      "Smart Irrigation"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What is the primary function of IoT sensors?",
+    "code": "",
+    "options": [
+      "Actuate physical systems",
+      "Collect data from the environment",
+      "Store data in the cloud",
+      "Analyze big data"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following IoT protocols uses publish-subscribe architecture?",
+    "code": "",
+    "options": ["MQTT", "HTTP", "FTP", "SNMP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which type of IoT application is used in fitness tracking?",
+    "code": "",
+    "options": [
+      "Smart Parking",
+      "Wearables",
+      "Smart Grid",
+      "Industrial Robots"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which IoT protocol is based on REST architecture for resource-constrained devices?",
+    "code": "",
+    "options": ["CoAP", "MQTT", "SMTP", "HTTPS"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT technology enables contactless payments?",
+    "code": "",
+    "options": ["NFC", "LoRaWAN", "Zigbee", "Satellite Communication"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these IoT applications helps in reducing traffic congestion?",
+    "code": "",
+    "options": ["Smart Parking", "Smartwatch", "Smart TV", "Smart Thermostat"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT communication model reduces latency by processing data closer to devices?",
+    "code": "",
+    "options": [
+      "Cloud Computing",
+      "Edge Computing",
+      "Peer-to-Peer Networking",
+      "Satellite Networking"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of these is a protocol designed for IoT device discovery and communication?",
+    "code": "",
+    "options": ["mDNS", "HTTP", "SMTP", "DNSSEC"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT application supports patient health monitoring?",
+    "code": "",
+    "options": [
+      "Wearable ECG Monitors",
+      "Smart Bulbs",
+      "Smart TVs",
+      "Fleet Trackers"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which type of communication does Bluetooth Low Energy (BLE) support for IoT devices?",
+    "code": "",
+    "options": [
+      "Long-Range, High-Power",
+      "Short-Range, Low-Power",
+      "Satellite-Based",
+      "Fiber-Optic"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which IoT communication protocol is designed for low-bandwidth, delay-tolerant networks?",
+    "code": "",
+    "options": ["MQTT-SN", "FTP", "POP3", "SNMP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT application improves energy efficiency in homes?",
+    "code": "",
+    "options": [
+      "Smart Thermostats",
+      "Smart Toys",
+      "Smart TVs",
+      "Smart Watches"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is an example of device-to-device IoT communication?",
+    "code": "",
+    "options": [
+      "Smart Lock communicating with Smart Doorbell",
+      "Smartphone accessing Cloud Storage",
+      "Wearable device syncing with Cloud",
+      "Smart Bulb connecting to Alexa via Wi-Fi"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which wireless technology is specifically designed for short-range IoT communication at very low power?",
+    "code": "",
+    "options": ["NFC", "5G", "Satellite", "Fiber"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT protocol is used to provide secure communication between constrained devices?",
+    "code": "",
+    "options": ["DTLS", "SMTP", "Telnet", "POP3"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is a key feature of IoT systems?",
+    "code": "",
+    "options": [
+      "Device Interconnectivity",
+      "Manual Control Only",
+      "Offline Operations Only",
+      "No Data Sharing"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT protocol works efficiently in unreliable or unstable networks?",
+    "code": "",
+    "options": ["MQTT", "HTTP", "FTP", "SMTP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT application is used in precision farming?",
+    "code": "",
+    "options": [
+      "Smart Irrigation",
+      "Smartwatch",
+      "Smart Parking",
+      "Digital Marketing"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT communication model allows multiple devices to exchange data via a central broker?",
+    "code": "",
+    "options": [
+      "Publisher-Subscriber",
+      "Client-Server",
+      "Peer-to-Peer",
+      "Device-to-Device"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT protocol is optimized for constrained nodes and networks?",
+    "code": "",
+    "options": ["CoAP", "SMTP", "POP3", "IMAP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these technologies is critical for IoT scalability?",
+    "code": "",
+    "options": [
+      "Cloud Computing",
+      "Manual Processing",
+      "Offline Servers",
+      "Standalone Devices"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT wireless technology is often used in smart city projects for wide coverage?",
+    "code": "",
+    "options": ["LoRaWAN", "Bluetooth", "Ethernet", "NFC"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT application is commonly used in logistics?",
+    "code": "",
+    "options": ["Fleet Tracking", "Smart Oven", "Wearable Watch", "Smart TV"],
+    "answer": "a"
+  },
+  {
+    "question": "What is the main purpose of actuators in IoT?",
+    "code": "",
+    "options": [
+      "To process data",
+      "To execute actions in the physical world",
+      "To connect devices",
+      "To store information"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which IoT device is used in smart homes for security?",
+    "code": "",
+    "options": [
+      "Smart Door Lock",
+      "Smart Refrigerator",
+      "Fitness Band",
+      "Smart Speaker"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which protocol provides end-to-end encryption for IoT data?",
+    "code": "",
+    "options": ["TLS/SSL", "FTP", "POP3", "SNMP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which layer of IoT architecture deals with providing services to the end user?",
+    "code": "",
+    "options": [
+      "Application Layer",
+      "Network Layer",
+      "Perception Layer",
+      "Gateway Layer"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT communication protocol is similar to HTTP but optimized for constrained devices?",
+    "code": "",
+    "options": ["CoAP", "FTP", "SMTP", "POP3"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT application is related to environmental monitoring?",
+    "code": "",
+    "options": [
+      "Air Quality Sensors",
+      "Smart Watch",
+      "Smart TV",
+      "Smart Lighting"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which communication model in IoT uses a gateway for device connectivity?",
+    "code": "",
+    "options": [
+      "Device-to-Gateway",
+      "Device-to-Device",
+      "Device-to-Cloud",
+      "Peer-to-Peer"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which wireless technology provides very low latency suitable for IoT real-time applications?",
+    "code": "",
+    "options": ["5G", "LoRaWAN", "Zigbee", "NFC"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT application is widely used in smart grids?",
+    "code": "",
+    "options": [
+      "Smart Meters",
+      "Smart Parking Sensors",
+      "Wearables",
+      "Smart TVs"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which is an example of IoT use in healthcare?",
+    "code": "",
+    "options": [
+      "Remote Patient Monitoring",
+      "Smart Bulb Control",
+      "Smart Refrigerator Alerts",
+      "Fleet Tracking"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT protocol is commonly used for constrained devices over UDP?",
+    "code": "",
+    "options": ["CoAP", "MQTT", "HTTP", "SMTP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT communication model is suitable when devices communicate directly without intermediaries?",
+    "code": "",
+    "options": [
+      "Device-to-Device",
+      "Device-to-Cloud",
+      "Device-to-Gateway",
+      "Edge-to-Cloud"
+    ],
+    "answer": "a"
+  }
+]

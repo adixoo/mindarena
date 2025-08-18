@@ -1,0 +1,758 @@
+[
+  {
+    "question": "Which of the following is considered a soft skill?",
+    "code": "",
+    "options": [
+      "Programming",
+      "Effective Communication",
+      "Database Management",
+      "Networking"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Personality development primarily focuses on improving:",
+    "code": "",
+    "options": [
+      "Technical skills",
+      "Appearance only",
+      "Behavior and communication",
+      "Typing speed"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which skill helps in resolving conflicts in a team?",
+    "code": "",
+    "options": [
+      "Time management",
+      "Conflict resolution",
+      "Data analysis",
+      "Coding"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Emotional intelligence refers to the ability to:",
+    "code": "",
+    "options": [
+      "Control machines",
+      "Understand and manage emotions",
+      "Increase IQ",
+      "Perform calculations"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT a component of good communication?",
+    "code": "",
+    "options": ["Clarity", "Listening", "Interrupting", "Feedback"],
+    "answer": "c"
+  },
+  {
+    "question": "Time management helps an individual to:",
+    "code": "",
+    "options": [
+      "Waste less time",
+      "Work more hours",
+      "Avoid teamwork",
+      "Skip planning"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which personality trait is important for leadership?",
+    "code": "",
+    "options": ["Arrogance", "Confidence", "Laziness", "Shyness"],
+    "answer": "b"
+  },
+  {
+    "question": "Teamwork can be best described as:",
+    "code": "",
+    "options": [
+      "Working alone",
+      "Cooperating with others to achieve goals",
+      "Avoiding responsibility",
+      "Competing against others"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which soft skill is most important in an interview?",
+    "code": "",
+    "options": [
+      "Confidence",
+      "Procrastination",
+      "Silence",
+      "Avoiding eye contact"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Body language is a form of:",
+    "code": "",
+    "options": [
+      "Verbal communication",
+      "Non-verbal communication",
+      "Written communication",
+      "Digital communication"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Active listening means:",
+    "code": "",
+    "options": [
+      "Hearing without attention",
+      "Ignoring details",
+      "Paying full attention and responding appropriately",
+      "Interrupting frequently"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Adaptability as a soft skill means:",
+    "code": "",
+    "options": [
+      "Refusing to change",
+      "Adjusting to new situations easily",
+      "Always following old methods",
+      "Avoiding challenges"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of these is an example of a positive attitude?",
+    "code": "",
+    "options": [
+      "Blaming others",
+      "Finding solutions",
+      "Complaining",
+      "Avoiding problems"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Personality development enhances:",
+    "code": "",
+    "options": [
+      "Professional growth only",
+      "Personal and professional growth",
+      "Only technical knowledge",
+      "Physical appearance only"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Problem-solving skill involves:",
+    "code": "",
+    "options": [
+      "Identifying issues and finding solutions",
+      "Ignoring problems",
+      "Complaining about issues",
+      "Delegating problems only"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which soft skill is essential for effective teamwork?",
+    "code": "",
+    "options": ["Selfishness", "Collaboration", "Isolation", "Avoidance"],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is a barrier to communication?",
+    "code": "",
+    "options": ["Clarity", "Noise", "Feedback", "Active listening"],
+    "answer": "b"
+  },
+  {
+    "question": "Leadership is best defined as:",
+    "code": "",
+    "options": [
+      "Managing only yourself",
+      "Influencing and guiding others",
+      "Avoiding responsibility",
+      "Working silently"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Critical thinking means:",
+    "code": "",
+    "options": [
+      "Accepting everything blindly",
+      "Analyzing information logically",
+      "Ignoring facts",
+      "Avoiding decisions"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "The first step in personality development is:",
+    "code": "",
+    "options": [
+      "Self-awareness",
+      "Blaming others",
+      "Avoiding feedback",
+      "Ignoring weaknesses"
+    ],
+    "answer": "a"
+  },
+
+  {
+    "question": "Which of the following is an example of a soft skill in the workplace?",
+    "code": "",
+    "options": [
+      "C++ Programming",
+      "Teamwork",
+      "Database Indexing",
+      "Network Configuration"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Positive body language includes:",
+    "code": "",
+    "options": [
+      "Crossed arms",
+      "Maintaining eye contact",
+      "Frowning",
+      "Avoiding eye contact"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of these improves interpersonal skills?",
+    "code": "",
+    "options": [
+      "Effective communication",
+      "Avoiding teamwork",
+      "Being silent",
+      "Ignoring others"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which is the best example of time management?",
+    "code": "",
+    "options": [
+      "Procrastinating",
+      "Planning tasks ahead",
+      "Wasting time online",
+      "Delaying deadlines"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Assertiveness means:",
+    "code": "",
+    "options": [
+      "Being aggressive",
+      "Expressing yourself confidently and respectfully",
+      "Remaining silent always",
+      "Avoiding opinions"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of these is NOT a soft skill?",
+    "code": "",
+    "options": ["Coding in Python", "Adaptability", "Leadership", "Creativity"],
+    "answer": "a"
+  },
+  {
+    "question": "Which is a key factor in building self-confidence?",
+    "code": "",
+    "options": [
+      "Self-doubt",
+      "Negative attitude",
+      "Self-awareness",
+      "Fear of failure"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Conflict management involves:",
+    "code": "",
+    "options": [
+      "Escalating problems",
+      "Resolving disagreements constructively",
+      "Ignoring conflicts",
+      "Blaming others"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which soft skill is most related to customer service?",
+    "code": "",
+    "options": ["Empathy", "Coding", "Database design", "System installation"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is an example of good etiquette?",
+    "code": "",
+    "options": ["Interrupting", "Politeness", "Shouting", "Being rude"],
+    "answer": "b"
+  },
+  {
+    "question": "Which communication type uses gestures and expressions?",
+    "code": "",
+    "options": ["Verbal", "Non-verbal", "Written", "Digital"],
+    "answer": "b"
+  },
+  {
+    "question": "Decision-making skill is important because:",
+    "code": "",
+    "options": [
+      "It avoids responsibility",
+      "It helps in choosing best solutions",
+      "It delays work",
+      "It ignores issues"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which is an example of poor listening?",
+    "code": "",
+    "options": [
+      "Interrupting often",
+      "Paying attention",
+      "Asking relevant questions",
+      "Nodding to show understanding"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Creativity as a soft skill helps in:",
+    "code": "",
+    "options": [
+      "Finding innovative solutions",
+      "Copying others",
+      "Avoiding work",
+      "Repeating same methods"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Stress management is important because:",
+    "code": "",
+    "options": [
+      "It reduces efficiency",
+      "It improves productivity and health",
+      "It creates conflicts",
+      "It increases workload"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is an essential skill for public speaking?",
+    "code": "",
+    "options": ["Fear", "Clarity", "Avoidance", "Shyness"],
+    "answer": "b"
+  },
+  {
+    "question": "Networking as a soft skill means:",
+    "code": "",
+    "options": [
+      "Building relationships with people",
+      "Connecting only machines",
+      "Avoiding social contact",
+      "Staying isolated"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which skill is required to work effectively under pressure?",
+    "code": "",
+    "options": [
+      "Stress management",
+      "Procrastination",
+      "Complaining",
+      "Isolation"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Self-motivation means:",
+    "code": "",
+    "options": [
+      "Waiting for others to inspire you",
+      "Driving yourself towards goals",
+      "Depending on external rewards only",
+      "Avoiding challenges"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is the foundation of personality development?",
+    "code": "",
+    "options": ["Self-awareness", "Ignorance", "Arrogance", "Avoidance"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is an important element of professional ethics?",
+    "code": "",
+    "options": ["Dishonesty", "Integrity", "Irresponsibility", "Laziness"],
+    "answer": "b"
+  },
+  {
+    "question": "Effective communication requires:",
+    "code": "",
+    "options": [
+      "Clear message and active listening",
+      "Interrupting frequently",
+      "Speaking fast without pause",
+      "Ignoring feedback"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which skill helps in maintaining a work-life balance?",
+    "code": "",
+    "options": [
+      "Time management",
+      "Avoidance",
+      "Procrastination",
+      "Overworking"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Self-confidence is built by:",
+    "code": "",
+    "options": [
+      "Self-doubt",
+      "Negative thinking",
+      "Continuous practice and positive attitude",
+      "Fear of mistakes"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which is an example of teamwork in the workplace?",
+    "code": "",
+    "options": [
+      "Sharing responsibilities",
+      "Working alone only",
+      "Ignoring colleagues",
+      "Competing negatively"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Empathy allows a person to:",
+    "code": "",
+    "options": [
+      "Ignore others' feelings",
+      "Understand others' emotions",
+      "Control others",
+      "Avoid interaction"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is a sign of poor personality?",
+    "code": "",
+    "options": ["Confidence", "Respect for others", "Rudeness", "Politeness"],
+    "answer": "c"
+  },
+  {
+    "question": "In personality development, grooming refers to:",
+    "code": "",
+    "options": [
+      "Personal hygiene and appearance",
+      "Technical skills",
+      "Avoiding social contact",
+      "Programming knowledge"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which skill helps in achieving long-term goals?",
+    "code": "",
+    "options": [
+      "Persistence",
+      "Procrastination",
+      "Complaining",
+      "Giving up easily"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Constructive feedback is given to:",
+    "code": "",
+    "options": [
+      "Motivate and improve performance",
+      "Discourage others",
+      "Insult someone",
+      "Avoid responsibility"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is an important quality of a leader?",
+    "code": "",
+    "options": ["Inspiration", "Fear", "Rudeness", "Neglect"],
+    "answer": "a"
+  },
+  {
+    "question": "Good communication skills help in:",
+    "code": "",
+    "options": [
+      "Building strong relationships",
+      "Creating confusion",
+      "Avoiding teamwork",
+      "Breaking trust"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Problem-solving requires:",
+    "code": "",
+    "options": [
+      "Critical thinking",
+      "Ignoring facts",
+      "Avoiding decisions",
+      "Blaming others"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is a quality of an emotionally intelligent person?",
+    "code": "",
+    "options": [
+      "Managing own emotions",
+      "Being insensitive",
+      "Ignoring others",
+      "Avoiding feedback"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which is the best way to reduce stress?",
+    "code": "",
+    "options": [
+      "Planning work",
+      "Overthinking",
+      "Procrastination",
+      "Complaining"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which skill helps in handling criticism positively?",
+    "code": "",
+    "options": ["Resilience", "Anger", "Arrogance", "Avoidance"],
+    "answer": "a"
+  },
+  {
+    "question": "Which personality trait is most important for innovation?",
+    "code": "",
+    "options": ["Creativity", "Rigidity", "Fear of change", "Laziness"],
+    "answer": "a"
+  },
+  {
+    "question": "Active participation in group discussions improves:",
+    "code": "",
+    "options": [
+      "Communication and confidence",
+      "Isolation",
+      "Avoidance",
+      "Fear"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which skill ensures that deadlines are met?",
+    "code": "",
+    "options": [
+      "Time management",
+      "Procrastination",
+      "Daydreaming",
+      "Negligence"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which soft skill helps in building long-term trust?",
+    "code": "",
+    "options": ["Honesty", "Deception", "Laziness", "Arrogance"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is an essential element of personality development?",
+    "code": "",
+    "options": ["Self-awareness", "Overconfidence", "Ignorance", "Neglect"],
+    "answer": "a"
+  },
+  {
+    "question": "Good manners in the workplace reflect:",
+    "code": "",
+    "options": [
+      "Professionalism",
+      "Arrogance",
+      "Disrespect",
+      "Irresponsibility"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "The ability to control anger in stressful situations is a sign of:",
+    "code": "",
+    "options": ["Weakness", "Emotional intelligence", "Fear", "Arrogance"],
+    "answer": "b"
+  },
+  {
+    "question": "Which skill helps you explain ideas clearly to others?",
+    "code": "",
+    "options": ["Communication", "Avoidance", "Silence", "Isolation"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is NOT part of personality development?",
+    "code": "",
+    "options": [
+      "Grooming",
+      "Communication",
+      "Time management",
+      "Hardware installation"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "Which quality helps in gaining respect from others?",
+    "code": "",
+    "options": ["Politeness", "Rudeness", "Neglect", "Selfishness"],
+    "answer": "a"
+  },
+  {
+    "question": "The process of improving yourself to handle challenges better is called:",
+    "code": "",
+    "options": [
+      "Personality development",
+      "Technical training",
+      "Machine learning",
+      "Networking"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which is a sign of effective leadership?",
+    "code": "",
+    "options": [
+      "Inspiring and guiding the team",
+      "Avoiding responsibility",
+      "Ignoring team members",
+      "Creating conflicts"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Self-discipline helps in:",
+    "code": "",
+    "options": [
+      "Achieving goals",
+      "Avoiding success",
+      "Increasing laziness",
+      "Losing focus"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which soft skill helps in making better career growth?",
+    "code": "",
+    "options": ["Adaptability", "Neglect", "Fear", "Isolation"],
+    "answer": "a"
+  },
+  {
+    "question": "Which is an example of positive workplace behavior?",
+    "code": "",
+    "options": [
+      "Helping colleagues",
+      "Gossiping",
+      "Complaining",
+      "Ignoring tasks"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which factor is most important for building trust?",
+    "code": "",
+    "options": ["Honesty", "Deception", "Fear", "Arrogance"],
+    "answer": "a"
+  },
+  {
+    "question": "Good presentation skills require:",
+    "code": "",
+    "options": [
+      "Confidence and clarity",
+      "Fear and nervousness",
+      "Silence",
+      "Avoidance"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which soft skill is most important during group projects?",
+    "code": "",
+    "options": ["Teamwork", "Isolation", "Selfishness", "Avoidance"],
+    "answer": "a"
+  },
+  {
+    "question": "An optimistic person usually:",
+    "code": "",
+    "options": [
+      "Sees opportunities in problems",
+      "Gives up quickly",
+      "Always complains",
+      "Avoids challenges"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following improves problem-solving ability?",
+    "code": "",
+    "options": [
+      "Critical thinking",
+      "Ignoring facts",
+      "Overreacting",
+      "Blaming others"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which personality trait helps in handling failures positively?",
+    "code": "",
+    "options": ["Resilience", "Negativity", "Fear", "Blame-shifting"],
+    "answer": "a"
+  },
+  {
+    "question": "Why is adaptability important in the workplace?",
+    "code": "",
+    "options": [
+      "Because workplaces often change",
+      "Because change should be avoided",
+      "Because it prevents teamwork",
+      "Because it reduces learning"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is a barrier to personal growth?",
+    "code": "",
+    "options": [
+      "Procrastination",
+      "Self-motivation",
+      "Confidence",
+      "Adaptability"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which skill ensures professional success along with technical knowledge?",
+    "code": "",
+    "options": ["Soft skills", "Silence", "Laziness", "Neglect"],
+    "answer": "a"
+  }
+]

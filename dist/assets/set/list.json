@@ -1,20 +1,38 @@
 [
   {
-    "name": "Fundamentals of Computer Architecture",
-    "description": "Questions covering core computer architecture concepts.",
-    "set": "set1",
+    "name": "Introduction to Internet of Things",
+    "description": "Covers IoT basics including applications, devices, protocols, and communication models.",
+    "set": "c1",
     "question": 10
   },
   {
-    "name": "Networking & Protocol Essentials",
-    "description": "Quiz on networking models, protocols, and topologies.",
-    "set": "set2",
+    "name": "Things and Connections",
+    "description": "Quiz on IoT devices, connectivity, networking models, and communication protocols.",
+    "set": "c2",
     "question": 10
   },
   {
-    "name": "Hardware Components & Memory",
-    "description": "Focused on hardware parts, memory types, and CPU functions.",
-    "set": "set3",
+    "name": "Sensors, Actuators and Microcontrollers",
+    "description": "Covers IoT hardware components, types of sensors, actuators, and microcontroller basics.",
+    "set": "c3",
+    "question": 10
+  },
+  {
+    "name": "Building IoT Applications",
+    "description": "Focuses on IoT system design, application development, and real-world use cases.",
+    "set": "c4",
+    "question": 10
+  },
+  {
+    "name": "Security and Future of IoT Ecosystem",
+    "description": "Covers IoT security challenges, solutions, and future trends in IoT ecosystems.",
+    "set": "c5",
+    "question": 10
+  },
+  {
+    "name": "Soft skills-Personality Development",
+    "description": "Focuses on communication, teamwork, leadership, and personal growth skills.",
+    "set": "c6",
     "question": 10
   }
 ]

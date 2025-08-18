@@ -217,6 +217,9 @@
   .visible {
     visibility: visible;
   }
+  .fixed {
+    position: fixed;
+  }
   .isolate {
     isolation: isolate;
   }
@@ -225,6 +228,9 @@
   }
   .block {
     display: block;
+  }
+  .grid {
+    display: grid;
   }
   .h-full {
     height: 100%;
@@ -944,6 +950,16 @@
       font-size: var(--text-2xl);
       line-height: var(--tw-leading, var(--text-2xl--line-height));
     }
+  }
+  .quiz-code {
+    margin-top: calc(var(--spacing) * 2);
+    border-radius: calc(var(--radius) + 4px);
+    background-color: var(--muted);
+    @supports (color: color-mix(in lab, red, red)) {
+      background-color: color-mix(in oklab, var(--muted) 50%, transparent);
+    }
+    padding: calc(var(--spacing) * 4);
+    font-family: var(--font-mono);
   }
   .quiz-options {
     margin-top: calc(var(--spacing) * 4);

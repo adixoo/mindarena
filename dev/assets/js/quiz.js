@@ -56,6 +56,7 @@ const QUIZ_DURATION = 300; // 5 minutes in seconds
       optb: element.options[1],
       optc: element.options[2],
       optd: element.options[3],
+      code: element?.code ? `<pre class="quiz-code">$code$</pre>` : '',
       questionNumber: idx + 1,
       questionCount: questionList.length,
     });

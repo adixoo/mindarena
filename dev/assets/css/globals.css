@@ -426,6 +426,9 @@
   .quiz-question {
     @apply text-card-foreground text-xl font-medium sm:text-2xl;
   }
+  .quiz-code {
+    @apply bg-muted/50 mt-2 rounded-xl p-4 font-mono;
+  }
   .quiz-options {
     @apply mt-4 grid grid-cols-1 gap-3 md:grid-cols-2;
   }

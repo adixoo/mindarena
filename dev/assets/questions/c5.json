@@ -1,0 +1,387 @@
+[
+  {
+    "question": "Which of the following is a major security concern in IoT devices?",
+    "code": "",
+    "options": [
+      "Low power consumption",
+      "Unauthorized access",
+      "Limited storage",
+      "Fast connectivity"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What is the primary reason IoT devices are more vulnerable to attacks?",
+    "code": "",
+    "options": [
+      "High processing power",
+      "Always connected to the internet",
+      "Large memory",
+      "Expensive hardware"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which protocol is commonly used to secure IoT communication?",
+    "code": "",
+    "options": ["HTTP", "FTP", "MQTT with TLS", "POP3"],
+    "answer": "c"
+  },
+  {
+    "question": "What does end-to-end encryption in IoT ensure?",
+    "code": "",
+    "options": [
+      "Faster internet speed",
+      "Only sender and receiver can read data",
+      "Lower energy usage",
+      "Unlimited storage"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which IoT security measure helps verify device identity?",
+    "code": "",
+    "options": [
+      "Authentication",
+      "Compression",
+      "Synchronization",
+      "Filtering"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What is a Botnet in the context of IoT security?",
+    "code": "",
+    "options": [
+      "A group of secure devices",
+      "A malware-controlled network of IoT devices",
+      "A firewall",
+      "A VPN"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which technology can enhance future IoT device security?",
+    "code": "",
+    "options": ["Blockchain", "HTML", "Bluetooth", "JPEG"],
+    "answer": "a"
+  },
+  {
+    "question": "What is the role of a firewall in IoT security?",
+    "code": "",
+    "options": [
+      "Increase device memory",
+      "Block unauthorized traffic",
+      "Improve battery life",
+      "Enhance graphics"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "In the future of IoT, which network technology will support massive device connectivity?",
+    "code": "",
+    "options": ["3G", "4G", "5G", "Dial-up"],
+    "answer": "c"
+  },
+  {
+    "question": "Which IoT security risk occurs when devices do not get timely updates?",
+    "code": "",
+    "options": [
+      "High latency",
+      "Obsolete vulnerabilities",
+      "Low bandwidth",
+      "Energy overload"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What is data privacy in IoT mainly concerned with?",
+    "code": "",
+    "options": [
+      "Preventing unauthorized data access",
+      "Improving internet speed",
+      "Reducing device cost",
+      "Adding storage"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which future IoT application will rely heavily on secure real-time communication?",
+    "code": "",
+    "options": [
+      "Smart toys",
+      "Autonomous vehicles",
+      "Smart lighting",
+      "E-books"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What does the term 'attack surface' mean in IoT security?",
+    "code": "",
+    "options": [
+      "Device price",
+      "Number of potential vulnerabilities",
+      "Battery capacity",
+      "Internet speed"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which standard is used to ensure secure wireless IoT communication?",
+    "code": "",
+    "options": ["WPA3", "JPEG", "HTML5", "MIDI"],
+    "answer": "a"
+  },
+  {
+    "question": "How does Artificial Intelligence contribute to the future of IoT security?",
+    "code": "",
+    "options": [
+      "By predicting and detecting cyber threats",
+      "By increasing storage",
+      "By improving graphics",
+      "By lowering costs"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which layer of IoT architecture is most vulnerable to physical attacks?",
+    "code": "",
+    "options": [
+      "Perception layer",
+      "Network layer",
+      "Application layer",
+      "Cloud layer"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What is the main challenge of securing low-power IoT devices?",
+    "code": "",
+    "options": [
+      "Lack of sensors",
+      "Limited processing capability for encryption",
+      "Excessive memory",
+      "High cost"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which emerging technology will enhance secure IoT data sharing?",
+    "code": "",
+    "options": ["Blockchain", "MP3", "QR Code", "GIF"],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT security practice ensures that data has not been tampered with?",
+    "code": "",
+    "options": ["Integrity check", "Caching", "Compression", "Virtualization"],
+    "answer": "a"
+  },
+  {
+    "question": "In the future IoT ecosystem, which sector will require the highest level of security?",
+    "code": "",
+    "options": [
+      "Smart healthcare",
+      "Smart farming",
+      "Smart lighting",
+      "Smart toys"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which type of attack forces IoT devices to stop working by overwhelming them with traffic?",
+    "code": "",
+    "options": ["SQL Injection", "Phishing", "DDoS", "Brute force"],
+    "answer": "c"
+  },
+  {
+    "question": "What does 'patch management' mean in IoT security?",
+    "code": "",
+    "options": [
+      "Updating devices with security fixes",
+      "Connecting devices to Wi-Fi",
+      "Encrypting data",
+      "Reducing latency"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which cryptographic technique is widely used to secure IoT data?",
+    "code": "",
+    "options": ["Hashing", "Sorting", "Filtering", "Indexing"],
+    "answer": "a"
+  },
+  {
+    "question": "What does 'Zero Trust Security' mean in IoT?",
+    "code": "",
+    "options": [
+      "Always trust connected devices",
+      "Never trust, always verify",
+      "Only trust cloud servers",
+      "Trust only encrypted data"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which future IoT innovation could increase cyber-attack risks if not secured properly?",
+    "code": "",
+    "options": [
+      "Smart cities",
+      "Social media",
+      "Text messaging",
+      "Cloud gaming"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which authentication method is considered stronger for IoT devices?",
+    "code": "",
+    "options": [
+      "Username and password",
+      "Two-factor authentication",
+      "Plain text keys",
+      "Default credentials"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which organization defines global standards for IoT security?",
+    "code": "",
+    "options": ["ISO", "WHO", "NASA", "NATO"],
+    "answer": "a"
+  },
+  {
+    "question": "Why is device diversity a challenge in IoT security?",
+    "code": "",
+    "options": [
+      "Different devices need different security mechanisms",
+      "All devices use the same password",
+      "Devices cannot connect",
+      "Devices are too fast"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What is the role of intrusion detection systems (IDS) in IoT?",
+    "code": "",
+    "options": [
+      "Detect unusual network activity",
+      "Store more data",
+      "Increase speed",
+      "Reduce device size"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT communication protocol is more secure when combined with TLS?",
+    "code": "",
+    "options": ["MQTT", "SMTP", "POP3", "IMAP"],
+    "answer": "a"
+  },
+  {
+    "question": "In future IoT, which sector’s security breach could cause life-threatening consequences?",
+    "code": "",
+    "options": [
+      "Smart healthcare",
+      "Smart entertainment",
+      "Smart toys",
+      "Smart lighting"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is an example of physical IoT security?",
+    "code": "",
+    "options": [
+      "Password encryption",
+      "Device tamper-proof casing",
+      "TLS certificates",
+      "Cloud backup"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What is the impact of weak default passwords on IoT devices?",
+    "code": "",
+    "options": [
+      "Devices become faster",
+      "Devices are easily hacked",
+      "Devices save more energy",
+      "Devices get more storage"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which practice reduces the attack surface of IoT devices?",
+    "code": "",
+    "options": [
+      "Disabling unused services",
+      "Adding more apps",
+      "Sharing passwords",
+      "Increasing bandwidth"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Why is scalability a challenge for the future IoT ecosystem?",
+    "code": "",
+    "options": [
+      "Too many devices need secure management",
+      "Devices cannot connect to the internet",
+      "Users dislike IoT devices",
+      "Devices are too cheap"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which future technology can help automate IoT threat detection?",
+    "code": "",
+    "options": ["Artificial Intelligence", "JPEG", "HTML", "Bluetooth"],
+    "answer": "a"
+  },
+  {
+    "question": "What is the role of data encryption in IoT?",
+    "code": "",
+    "options": [
+      "Prevent unauthorized data access",
+      "Improve graphics",
+      "Reduce storage",
+      "Increase speed"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT layer handles secure data storage and analytics?",
+    "code": "",
+    "options": [
+      "Application layer",
+      "Network layer",
+      "Perception layer",
+      "Physical layer"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which attack involves intercepting communication between IoT devices?",
+    "code": "",
+    "options": [
+      "Man-in-the-middle",
+      "Phishing",
+      "SQL Injection",
+      "Brute force"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which aspect of IoT security will be most critical in autonomous vehicles?",
+    "code": "",
+    "options": [
+      "Real-time decision integrity",
+      "Device battery life",
+      "Low cost",
+      "Entertainment features"
+    ],
+    "answer": "a"
+  }
+]

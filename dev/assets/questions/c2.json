@@ -1,0 +1,577 @@
+[
+  {
+    "question": "In the context of computers, what does 'thing' generally represent in the Internet of Things (IoT)?",
+    "code": "",
+    "options": [
+      "A human user",
+      "A device connected to the network",
+      "A software program",
+      "A cloud server"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is NOT an example of a 'thing' in IoT?",
+    "code": "",
+    "options": ["Smartwatch", "Refrigerator", "Laptop", "Paper notebook"],
+    "answer": "d"
+  },
+  {
+    "question": "What does 'connection' mean in IoT context?",
+    "code": "",
+    "options": [
+      "Wiring between devices",
+      "A link established over a network",
+      "Physical attachment of devices",
+      "Only Wi-Fi signals"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which protocol is commonly used to connect IoT devices?",
+    "code": "",
+    "options": ["HTTP", "MQTT", "SMTP", "FTP"],
+    "answer": "b"
+  },
+  {
+    "question": "What is the purpose of connections between things in IoT?",
+    "code": "",
+    "options": [
+      "To store data permanently",
+      "To enable communication and data exchange",
+      "To improve hardware performance",
+      "To reduce energy consumption"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of these is an example of IoT 'thing' connected through the internet?",
+    "code": "",
+    "options": [
+      "Smart bulb controlled via app",
+      "Book on a shelf",
+      "Offline calculator",
+      "CD player"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What type of network is often used for smart home connections?",
+    "code": "",
+    "options": ["WAN", "LAN", "Zigbee", "VPN"],
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is a benefit of connecting things in IoT?",
+    "code": "",
+    "options": [
+      "Automatic updates",
+      "Real-time monitoring",
+      "Remote control",
+      "All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "Which communication model is common in IoT devices?",
+    "code": "",
+    "options": [
+      "Client-Server",
+      "Publisher-Subscriber",
+      "Peer-to-Peer",
+      "All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "What does Bluetooth enable in IoT devices?",
+    "code": "",
+    "options": [
+      "Cloud storage",
+      "Short-range wireless connection",
+      "High-speed data transfer over internet",
+      "Satellite communication"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What is an example of Machine-to-Machine (M2M) communication?",
+    "code": "",
+    "options": [
+      "User texting a friend",
+      "Smartwatch sending data to smartphone",
+      "Playing a video game online",
+      "Writing code in Python"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following best describes 'smart devices'?",
+    "code": "",
+    "options": [
+      "Devices that only store data",
+      "Devices with internet connectivity and sensors",
+      "Devices without processing power",
+      "Devices that cannot be programmed"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which layer of IoT deals with sensors and physical devices?",
+    "code": "",
+    "options": [
+      "Perception layer",
+      "Network layer",
+      "Application layer",
+      "Transport layer"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which layer of IoT ensures data transmission between devices?",
+    "code": "",
+    "options": [
+      "Perception layer",
+      "Network layer",
+      "Application layer",
+      "Business layer"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which technology is most suitable for connecting IoT devices over long distances?",
+    "code": "",
+    "options": ["Wi-Fi", "Zigbee", "LoRaWAN", "Bluetooth"],
+    "answer": "c"
+  },
+  {
+    "question": "What role does cloud computing play in IoT connections?",
+    "code": "",
+    "options": [
+      "Provides power supply",
+      "Stores and processes IoT data",
+      "Controls sensors directly",
+      "Creates local area networks"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What type of data do IoT 'things' usually collect?",
+    "code": "",
+    "options": [
+      "Sensor data",
+      "Weather data",
+      "Health monitoring data",
+      "All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following is an example of IoT application in healthcare?",
+    "code": "",
+    "options": [
+      "Smartwatch tracking heart rate",
+      "Email communication",
+      "Downloading movies",
+      "Word processor"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is an example of IoT security risk?",
+    "code": "",
+    "options": [
+      "Unauthorized access to smart camera",
+      "Slow internet speed",
+      "Low battery in phone",
+      "Software update notification"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What is required for a 'thing' to become part of IoT?",
+    "code": "",
+    "options": [
+      "Internet connectivity",
+      "Ability to collect data",
+      "Ability to communicate",
+      "All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following devices is commonly used as a gateway in IoT?",
+    "code": "",
+    "options": ["Router", "Printer", "Scanner", "Monitor"],
+    "answer": "a"
+  },
+  {
+    "question": "What type of address is essential for uniquely identifying IoT devices on the internet?",
+    "code": "",
+    "options": ["MAC address", "IP address", "URL", "Port number"],
+    "answer": "b"
+  },
+  {
+    "question": "Which generation of IP addressing supports a vast number of IoT devices?",
+    "code": "",
+    "options": ["IPv4", "IPv6", "IPX", "ARP"],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is an example of wearable IoT technology?",
+    "code": "",
+    "options": ["Smart glasses", "Desktop computer", "Server", "Printer"],
+    "answer": "a"
+  },
+  {
+    "question": "Which communication technology is commonly used in smart homes?",
+    "code": "",
+    "options": ["Zigbee", "Satellite", "Ethernet only", "Fiber optics"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following IoT connections typically consumes the least power?",
+    "code": "",
+    "options": ["Bluetooth Low Energy", "Wi-Fi", "Ethernet", "4G LTE"],
+    "answer": "a"
+  },
+  {
+    "question": "Which is NOT an IoT application?",
+    "code": "",
+    "options": [
+      "Smart thermostat",
+      "Self-driving car",
+      "Online banking website",
+      "Connected refrigerator"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "What type of connection does RFID use for communication?",
+    "code": "",
+    "options": [
+      "Optical signals",
+      "Radio waves",
+      "Wired signals",
+      "Satellite signals"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "What does M2M stand for in IoT connections?",
+    "code": "",
+    "options": [
+      "Machine to Machine",
+      "Mobile to Mobile",
+      "Module to Module",
+      "Message to Message"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following IoT protocols is lightweight and often used for low-bandwidth devices?",
+    "code": "",
+    "options": ["HTTP", "MQTT", "SMTP", "FTP"],
+    "answer": "b"
+  },
+  {
+    "question": "Which type of connection is used when a smart car communicates with a traffic signal?",
+    "code": "",
+    "options": [
+      "Vehicle-to-Infrastructure (V2I)",
+      "Vehicle-to-Cloud",
+      "Vehicle-to-Device",
+      "Vehicle-to-Server"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is an IoT agriculture application?",
+    "code": "",
+    "options": [
+      "Soil moisture sensors",
+      "Online exam portal",
+      "Word processing software",
+      "Digital marketing tools"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What is the primary role of sensors in IoT devices?",
+    "code": "",
+    "options": [
+      "Display data",
+      "Collect data from the environment",
+      "Connect to the internet",
+      "Store large datasets"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which layer of IoT is responsible for providing services to users?",
+    "code": "",
+    "options": [
+      "Perception layer",
+      "Application layer",
+      "Network layer",
+      "Data link layer"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of these is an example of IoT in transportation?",
+    "code": "",
+    "options": [
+      "GPS-enabled fleet tracking",
+      "Spreadsheet analysis",
+      "Email notifications",
+      "Cloud file storage"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which type of connection allows a smartphone to control a smart bulb at home?",
+    "code": "",
+    "options": [
+      "Device-to-Cloud",
+      "Device-to-Device",
+      "Human-to-Machine",
+      "Satellite-to-Device"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of the following is a key challenge in IoT connections?",
+    "code": "",
+    "options": [
+      "Security and privacy",
+      "High memory size",
+      "Faster printers",
+      "Better display screens"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is a short-range IoT communication technology?",
+    "code": "",
+    "options": ["Bluetooth", "Satellite", "Cellular network", "LoRaWAN"],
+    "answer": "a"
+  },
+  {
+    "question": "In smart cities, IoT connections are used for:",
+    "code": "",
+    "options": [
+      "Smart street lighting",
+      "Traffic monitoring",
+      "Waste management",
+      "All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following best defines 'IoT ecosystem'?",
+    "code": "",
+    "options": [
+      "A collection of only smart phones",
+      "Devices, connections, data, and users working together",
+      "Only cloud servers connected to IoT",
+      "A single device connected to Wi-Fi"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which of these is an industrial use of IoT?",
+    "code": "",
+    "options": [
+      "Predictive maintenance of machines",
+      "Online shopping",
+      "Photo editing",
+      "Word processing"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What type of connection allows smart meters to send data to utility companies?",
+    "code": "",
+    "options": [
+      "Machine-to-Machine",
+      "Human-to-Machine",
+      "Server-to-Client",
+      "Peer-to-Peer"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following is an essential requirement for IoT devices to work?",
+    "code": "",
+    "options": [
+      "Connectivity",
+      "Energy source",
+      "Unique identification",
+      "All of the above"
+    ],
+    "answer": "d"
+  },
+  {
+    "question": "Which of the following terms refers to controlling devices over the internet?",
+    "code": "",
+    "options": [
+      "Remote monitoring",
+      "Remote control",
+      "Cloud storage",
+      "Data mining"
+    ],
+    "answer": "b"
+  },
+  {
+    "question": "Which IoT application is used in fitness tracking?",
+    "code": "",
+    "options": ["Smartwatch", "Smart TV", "Server", "Printer"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is a common security feature in IoT connections?",
+    "code": "",
+    "options": [
+      "Encryption",
+      "Compression",
+      "Data duplication",
+      "Load balancing"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these communication models is based on event notifications?",
+    "code": "",
+    "options": [
+      "Publisher-Subscriber",
+      "Client-Server",
+      "Peer-to-Peer",
+      "Device-to-Device"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What does 'smart home' primarily depend on?",
+    "code": "",
+    "options": [
+      "Connected IoT devices",
+      "Only manual operation",
+      "Standalone devices",
+      "Non-digital appliances"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which technology connects IoT devices directly to satellites?",
+    "code": "",
+    "options": ["NB-IoT", "Satellite IoT", "Bluetooth", "Wi-Fi"],
+    "answer": "b"
+  },
+  {
+    "question": "Which healthcare IoT device can monitor blood sugar levels?",
+    "code": "",
+    "options": ["Glucometer with IoT", "Smart bulb", "Smart TV", "3D printer"],
+    "answer": "a"
+  },
+  {
+    "question": "Which of these is NOT a characteristic of IoT devices?",
+    "code": "",
+    "options": [
+      "Connectivity",
+      "Data collection",
+      "Offline isolation",
+      "Automation"
+    ],
+    "answer": "c"
+  },
+  {
+    "question": "Which of the following is an IoT application in retail?",
+    "code": "",
+    "options": [
+      "Smart shelves",
+      "Smart meters",
+      "Smart irrigation",
+      "Smart grid"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT connection allows multiple devices to share data in real-time?",
+    "code": "",
+    "options": [
+      "Device-to-Device",
+      "Device-to-Cloud",
+      "Device-to-Gateway",
+      "Human-to-Device"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which IoT-enabled system helps in energy efficiency?",
+    "code": "",
+    "options": [
+      "Smart grid",
+      "Offline generator",
+      "Manual switchboard",
+      "Non-electric devices"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following technologies is often used in IoT-enabled vehicles?",
+    "code": "",
+    "options": ["GPS", "Zigbee", "SMTP", "Ethernet only"],
+    "answer": "a"
+  },
+  {
+    "question": "What is the main advantage of connecting 'things' through IoT?",
+    "code": "",
+    "options": [
+      "Automation and convenience",
+      "Higher electricity usage",
+      "More manual work",
+      "No need for sensors"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which of the following IoT devices can be used for environmental monitoring?",
+    "code": "",
+    "options": [
+      "Air quality sensor",
+      "Word processor",
+      "Email client",
+      "Printer"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "Which protocol is often used for secure IoT communication?",
+    "code": "",
+    "options": ["HTTPS", "Telnet", "POP3", "IMAP"],
+    "answer": "a"
+  },
+  {
+    "question": "Which is an IoT application in smart agriculture?",
+    "code": "",
+    "options": [
+      "Automatic irrigation system",
+      "Gaming console",
+      "Video streaming",
+      "E-book reader"
+    ],
+    "answer": "a"
+  },
+  {
+    "question": "What is the ultimate goal of IoT connections?",
+    "code": "",
+    "options": [
+      "To connect devices for smarter decision-making",
+      "To increase manual work",
+      "To disconnect systems",
+      "To remove automation"
+    ],
+    "answer": "a"
+  }
+]
